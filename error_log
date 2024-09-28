@@ -1,0 +1,16 @@
+[08-May-2022 22:26:38 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:26:38 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
+[08-May-2022 22:26:38 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:26:38 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
+[08-May-2022 22:26:38 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:26:38 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
+[08-May-2022 22:27:09 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:27:09 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
+[08-May-2022 22:33:26 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:33:26 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
+[08-May-2022 22:35:00 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:35:00 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
+[08-May-2022 22:35:49 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:35:49 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
+[08-May-2022 22:38:42 Asia/Jakarta] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home/minc2944/public_html/index.php) is not within the allowed path(s): ({WEBSPACEROOT}{/}{:}{TMP}{/}) in Unknown on line 0
+[08-May-2022 22:38:42 Asia/Jakarta] PHP Warning:  Unknown: failed to open stream: Operation not permitted in Unknown on line 0
