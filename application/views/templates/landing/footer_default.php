@@ -1,89 +1,145 @@
-<section class="footer" id="section-footer">
-    <div class="footer-container">
-        <div class="row">
-            <div class="col-md">
-                <div class="logo-footer justify-content-center text-center">
-                    <img class="mb-2" src="<?php echo base_url()?>assets/landing/img/logo-enha2.png"
-                        alt="footer mas nurul huda">
-                    <h3>MIS Nurul Huda</h3>
-                    <h5 class="mb-1">"Terwujudnya Insan kamil yang beriman, berilmu pengetahuan, cerdas,
-                        terampil dan mampu mengembangkan diri, serta berakhlakul karimah"</h5>
-                    <h7>Jl.KH. Wahid Hasyim Gg.Parasdi Dalam I No.7 Kec.Bojongloa Kidul Kel. Situsaeur
-                        Bandung 40234
-                    </h7>
-                </div>
-            </div>
-            <div class="col-md">
-                <h4>Line Kontak</h4>
-                <hr>
-                <ul>
-                    <li><a href="tel:+62225207636" target="_blank"><i class="fas fa-phone fa-lg"></i>022-5207636</a>
-                    </li>
-                    <li><a href="mailto:info@minurulhuda.sch.id" target="_blank"><i
-                                class="fas fa-envelope fa-lg"></i>info@minurulhuda.sch.id</a>
-                    </li>
-                </ul>
-                <h4>Sosial Media</h4>
-                <hr>
-                <ul>
-                    <li><a href="https://www.facebook.com/mi.nurulhuda.589" target="_blank"><i
-                                class="fab fa-facebook fa-lg"></i> @minurulhudakotabandung</a></li>
-
-                    <li><a href="https://www.youtube.com/watch?v=MngGrau0l3U&t=16s" target="_blank"><i
-                                class="fab fa-youtube fa-lg"></i> @mi nurulhuda</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- <div class="col-md">
-                <h4>Temukan Kami di Maps </h4>
-                <hr>
-                <div id="map"></div>
-            </div> -->
-        </div>
-        <div class="copyright justify-content-center text-center mt-3"><a href="http://www.minurulhuda.sch.id"
-                target="blank">
-                &copyMIS NURUL HUDA Kota Bandung 2020 | Allright reserved</a> |
-            <strong> Developed by </strong><a
-                href="https://play.google.com/store/search?q=pub%3Azlz%20tech&c=apps&hl=in" target="blank">zlz</a>
-        </div>
-    </div>
-
-</section>
-<script src="<?php echo base_url()?>assets/landing/js/jquery-3.4.1.slim.min.js"></script>
-<script src="<?php echo base_url()?>assets/landing/js/popper.min.js"></script>
-<script src="<?php echo base_url()?>assets/landing/js/bootstrap.min.js"></script>
-<script src="<?php echo base_url()?>assets/landing/js/smooth-scroll.min.js"></script>
-<script src="<?php echo base_url()?>assets/landing/js/loader.js"></script>
-<script src="<?php echo base_url()?>assets/landing/js/enha.js"></script>
-<script src="<?php echo base_url()?>assets/landing/js/baguetteBox.min.js"></script>
-<script type="text/javascript">
-    // baguetteBox.run('.tz-gallery');
-
-    // $(function() {
-    //     var scroll = new SmoothScroll('a[href*="#section-"]', {
-    //         // speed: 1000
-    //         easing: 'easeInOutCubic',
-    //         customEasing: function(time) {
-    //             return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
-
-    //         }
-    //     });
-    // });
-
-    var map = L.map('map').setView([-6.937930, 107.595264], 17);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    L.marker([-6.937930, 107.595264]).addTo(map)
-        .bindPopup('<div class="text-center"><b>MI NURUL HUDA</b><br> Jl.KH.Wahid Hasyim Gg.Parasdi Dalam I No.7</div>')
-        .openPopup();
-</script>
-<!-- <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfz3Euq9lMt4i7V-rho11jkgRCTC5t4vo&callback=initMap">
-</script> -->
-
-<!-- </body>
-
-</html> -->
+ 
+ 
+ <!-- Start Footer 
+    ============================================= -->
+ <footer class="bg-dark default-padding-top text-light">
+     <div class="container">
+         <div class="row">
+             <div class="f-items">
+                 <div class="col-md-4 item">
+                     <div class="f-item">
+                         <img src="assets/img/logo-light.png" alt="Logo">
+                         <p>
+                             Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for you are out. Fertile how old address did showing because sitting replied six. Had arose guest visit going off child she new.
+                         </p>
+                         <div class="social">
+                             <ul>
+                                 <li>
+                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                 </li>
+                                 <li>
+                                     <a href="#"><i class="fab fa-twitter"></i></a>
+                                 </li>
+                                 <li>
+                                     <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                 </li>
+                                 <li>
+                                     <a href="#"><i class="fab fa-dribbble"></i></a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-2 col-sm-6 item">
+                     <div class="f-item link">
+                         <h4>Links</h4>
+                         <ul>
+                             <li>
+                                 <a href="#">Courses</a>
+                             </li>
+                             <li>
+                                 <a href="#">Event</a>
+                             </li>
+                             <li>
+                                 <a href="#">Gallery</a>
+                             </li>
+                             <li>
+                                 <a href="#">Faqs</a>
+                             </li>
+                             <li>
+                                 <a href="#">Teachers</a>
+                             </li>
+                             <li>
+                                 <a href="#">Contact</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="col-md-2 col-sm-6 item">
+                     <div class="f-item link">
+                         <h4>Support</h4>
+                         <ul>
+                             <li>
+                                 <a href="#">Documentation</a>
+                             </li>
+                             <li>
+                                 <a href="#">Forums</a>
+                             </li>
+                             <li>
+                                 <a href="#">Language Packs</a>
+                             </li>
+                             <li>
+                                 <a href="#">Release Status</a>
+                             </li>
+                             <li>
+                                 <a href="#">LearnPress</a>
+                             </li>
+                             <li>
+                                 <a href="#">Feedback</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="col-md-4 item">
+                     <div class="f-item recent-post">
+                         <h4>Popular Courses</h4>
+                         <ul>
+                             <li>
+                                 <div class="thumb">
+                                     <a href="#">
+                                         <img src="assets/img/800x800.png" alt="Thumb">
+                                     </a>
+                                 </div>
+                                 <div class="info">
+                                     <a href="#">Subjects allied to Creative arts and design</a>
+                                     <div class="meta-title">
+                                         <span class="post-date">12 Feb, 2018</span> - By <a href="#">Jessica</a>
+                                     </div>
+                                 </div>
+                             </li>
+                             <li>
+                                 <div class="thumb">
+                                     <a href="#">
+                                         <img src="assets/img/800x800.png" alt="Thumb">
+                                     </a>
+                                 </div>
+                                 <div class="info">
+                                     <a href="#">Business and administrative subjects</a>
+                                     <div class="meta-title">
+                                         <span class="post-date">12 Feb, 2018</span> - By <a href="#">Arnold</a>
+                                     </div>
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- Start Footer Bottom -->
+     <div class="footer-bottom">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="col-md-6">
+                         <p>&copy; Copyright 2019. All Rights Reserved by <a href="#">validthemes</a></p>
+                     </div>
+                     <div class="col-md-6 text-right link">
+                         <ul>
+                             <li>
+                                 <a href="#">Terms of user</a>
+                             </li>
+                             <li>
+                                 <a href="#">License</a>
+                             </li>
+                             <li>
+                                 <a href="#">Support</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- End Footer Bottom -->
+ </footer>

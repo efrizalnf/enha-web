@@ -1,127 +1,182 @@
-<!doctype html>
-<html lang="en">
+<div>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="minurulhuda, nurul huda, yapinda, bandung, kota bandung">
-    <meta name="copyright" content="efrizalnf|zlztech 2020">
-    <meta name="author" content="efrizalnf|zlztech 2020">
-    <meta name="url" content="https://www.everyzalz.blogspot.com">
-    <link rel="icon" href="<?php echo base_url()?>assets/landing/img/favicon.ico">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/style.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/w3.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/baguetteBox.min.css">
-    <title>MI Nurul Huda Kota Bandung</title>
-</head>
 
-<body>
-    <header class="section-head sticky-top" id="section-head">
-        <!-- <div class="nav-header d-flex flex-row justify-content-stretch align-items-center">
-            <div class="top-contact mr-auto ml-4">
-                <ul class="list-inline">
-                    <li class="list-inline-item pl-3 pr-0"><a href="tel:+62225207636" target="_blank"><i
-                                class="fas fa-phone"></i>022-5207636</a>
-                    </li>
-                    <li class="list-inline-item pl-3 pr-0"><a href="mailto:info@minurulhuda.sch.id" target="_blank"><i
-                                class="fas fa-envelope"></i>info@minurulhuda.sch.id</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="top-sosmed justify-content-end mr-5">
-                <ul class="list-inline">
-                    <li class="list-inline-item pl-3 pr-0"><a href="https://www.facebook.com/mi.nurulhuda.589"
-                            target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li class="list-inline-item pl-3 pr-0"><a href="https://www.youtube.com/watch?v=MngGrau0l3U&t=16s"
-                            target="_blank"><i class="fab fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-            <div class="navbar-toggler-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="top-header">
-                <a href="<?php echo base_url('enhas/index')?>" class="navbar-brand ml-3 mt-2">
-                    <img src="<?php echo base_url()?>assets/landing/img/logo-enha2.png" class="ml-15 mr-2" width="49"
-                        height="49">
-                    <div class="nav-text">
-                        <ul class="list-unstyled">
+    <!-- Preloader Start -->
+    <div class="se-pre-con"></div>
+    <!-- Preloader Ends -->
+
+    <!-- Start Header Top 
+    ============================================= -->
+    <div class="top-bar-area address-one-lines bg-dark text-light">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-md-9 address-info">
+                    <div class="info box">
+                        <ul>
                             <li>
-                                <h5 class="font-weight-bold brand">MI NURUL HUDA</h5>
+                                Have any question? +123 456 7890
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-open"></i>
+                                Info@gmail.com
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                Sun - Thu <span>8:00 - 16:00</span>
                             </li>
                         </ul>
                     </div>
-                </a>
+                </div>
+                <div class="simple-link text-right col-md-3">
+                    <a href="#"><i class="fas fa-edit"></i> Register</a>
+                    <a href="#"><i class="fas fa-user"></i> Login</a>
+                </div>
             </div>
-            <div class="collapse navbar-collapse flex-column" id="navbar">
-                <ul class="navbar-nav w-100 justify-content-end px-3">
-                    <li class="nav-item bg-success rounded text-warning active mr-1">
-                        <a class="nav-link font-weight-bold" href="<?php echo base_url('enhas/index')?>">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Tentang Kami
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-profil')?>" class="page-scroll">Profil</a>
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-sejarah')?>" class="page-scroll">Sambutan Kamad</a>
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/index#section-fasilitas')?>" class="page-scroll">Fasilitas</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Direktori
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/dirguru')?>">Direktori Guru</a>
-                            <a class="dropdown-item" href="#">Direktori Siswa</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://ppdb.yapinda.online/" target="_blank">PPDB</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('enhas/index#section-gallery')?>" class="page-scroll">Galeri</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Informasi
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/informasi')?>">Pengumuman</a>
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/download')?>">File Download</a>
-                        </div>
-                    </li>
+        </div>
+    </div>
+    <!-- End Header Top -->
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            eNHa Apps
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="http://ard.minurulhuda.sch.id/portal/login/mi"
-                                target="_blank">ARD</a>
-                            <a class="dropdown-item" href="http://cbt.minurulhuda.sch.id/" target="_blank">eNHa-CBT</a>
-                            <a class="dropdown-item" href="http://elearning.minurulhuda.sch.id/"
-                                target="_blank">eNHa-Learning</a>
-                        </div>
-                    </li>
-                </ul>
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default navbar-fixed dark no-background bootsnav mb-3">
+
+            <div class="container">
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="<?php echo base_url() ?>">
+                        <img src="<?php echo base_url() ?>assets/landing/img/logo-enha2.png" class="logo" alt="Logo" width="60" height="60">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home Version One</a></li>
+                                <li><a href="index-2.html">Home Version Two</a></li>
+                                <li><a href="index-3.html">Home Version Three</a></li>
+                                <li><a href="index-4.html">Home Version Four</a></li>
+                                <li><a href="index-5.html">Home Version Five</a></li>
+                                <li><a href="index-6.html">Home Version Six</a></li>
+                                <li><a href="index-7.html">Home Version Serven <span class="badge">New</span></a></li>
+                                <li><a href="index-onepage.html">Onepage Version One</a></li>
+                                <li><a href="index-2-onepage.html">Onepage Version Two</a></li>
+                                <li><a href="index-3-onepage.html">Onepage Version Three</a></li>
+                                <li><a href="index-4-onepage.html">Onepage Version Four</a></li>
+                                <li><a href="index-5-onepage.html">Onepage Version Five</a></li>
+                                <li><a href="index-6-onepage.html">Onepage Version Six</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown megamenu-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu megamenu-content" role="menu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Gallery</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="gallery-2-colum.html">Gallery Two Colum</a></li>
+                                                    <li><a href="gallery-3-colum.html">Gallery Three Colum</a></li>
+                                                    <li><a href="gallery-4-colum.html">Gallery Four Colum</a></li>
+                                                    <li><a href="gallery-6-colum.html">Gallery Six Colum</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Advisor</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="advisor-carousel.html">Advisor Carousel</a></li>
+                                                    <li><a href="advisor-2-colum.html">Advisor Two Colum</a></li>
+                                                    <li><a href="advisor-3-colum.html">Advisor Three Colum</a></li>
+                                                    <li><a href="advisor-carousel-2.html">Advisor Carousel Two</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">User Pages</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="profile.html">Profile</a></li>
+                                                    <li><a href="edit-profile.html">Edit Profile</a></li>
+                                                    <li><a href="login.html">login</a></li>
+                                                    <li><a href="register.html">register</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Other Pages</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><a href="faq.html">Faq</a></li>
+                                                    <li><a href="pricing-table.html">Pricing Table</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="404.html">Error Page</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                    </div><!-- end row -->
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Courses</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="courses.html">Courses Carousel One</a></li>
+                                <li><a href="courses-2.html">Courses Grid One</a></li>
+                                <li><a href="courses-3.html">Courses Grid Two</a></li>
+                                <li><a href="courses-4.html">Courses Carousel Two</a></li>
+                                <li><a href="course-details.html">Course Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Teachers</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="teachers.html">Advisor</a></li>
+                                <li><a href="teachers-details.html">Advisor Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Event</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="event.html">Event Mixed Colum</a></li>
+                                <li><a href="event-2.html">Event Grid Colum</a></li>
+                                <li><a href="event-3.html">Event Carousel</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-standard.html">Blog Standard</a></li>
+                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                <li><a href="blog-single-standard.html">Single Standard</a></li>
+                                <li><a href="blog-single-left-sidebar.html">Single Left Sidebar</a></li>
+                                <li><a href="blog-single-right-sidebar.html">Single Right Sidebar</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
             </div>
+
         </nav>
-
+        <!-- End Navigation -->
 
     </header>
+    <!-- End Header -->
+</div>

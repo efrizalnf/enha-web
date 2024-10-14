@@ -1,452 +1,1021 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="minurulhuda, nurul huda, yapinda, bandung, kota bandung">
-    <meta name="copyright" content="efrizalnf|zlztech 2020">
-    <meta name="author" content="efrizalnf|zlztech 2020">
-    <meta name="url" content="https://www.everyzalz.blogspot.com">
-    <link rel="icon" href="<?php echo base_url()?>assets/landing/img/favicon.ico">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?= base_url('assets/landing/fontawesome/css/all.min.css')?>">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/style.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/w3.css">
-    <link rel="stylesheet" href="<?php echo base_url()?>assets/landing/css/baguetteBox.min.css">
-    <link rel="stylesheet" href="<?= base_url()?>assets/leaflet/leaflet.css">
-    <script src="<?= base_url()?>assets/leaflet/leaflet.js"></script>
-    <title><?= $profile->nama_madrasah?></title>
-</head>
-
-<body onload="hideloader();">
-    <div class="loading overlay">
-        <div class="ldio-ohmxfizoh9a">
-            <div></div>
-            <div></div>
-            <div>
-                <div></div>
-            </div>
-            <div>
-                <div></div>
+    <div class="banner-area standard text-default bg-gray-hard" style="padding-top: 90px;">
+        <div class="item">
+            <div class="box-table">
+                <div class="box-cell">
+                    <div class="container" style="margin-bottom: 60px;" >
+                        <div class="row item-flex center">
+                            <div class="col-md-6">
+                                <div class="content-box">
+                                    <h1>Learn from best online training course</h1>
+                                    <p>
+                                        Supposing breakfast day fulfilled off depending questions. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh. Of acceptance insipidity remarkably is invitation.
+                                    </p>
+                                    <form action="#">
+                                        <input type="text" placeholder="What do you want to learn?" class="form-control" name="text">
+                                        <button type="submit"><i class="fas fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-6 thumb">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <div class="join">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="fun-fact">
+                                        <h4 class="timer" data-to="1200" data-speed="5000"></h4>
+                                        <span class="medium">Online Courses</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- End Banner -->
 
-    <!-- <div class="loader">
-    <div class="circle"></div><div class="circle"></div><div class="circle"></div></div>
-    -->
-    <!--     <div class="loader">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div> -->
-    <div class="section-home" id="section-home">
-        <a id="scroll-top" href="#section-home"><i class="fas fa-angle-up m-auto"></i></a>
-        <div class="nav-header d-flex flex-row justify-content-stretch align-items-center">
-            <div class="top-contact mr-auto ml-4">
-                <ul class="list-inline">
-                    <li class="list-inline-item pl-3 pr-0"><a href="tel:+622<?= $profile->phone?>" target="_blank"><i
-                                class="fas fa-phone"></i>-</a>
-                    </li>
-                    <li class="list-inline-item pl-3 pr-0"><a href="mailto:<?= $profile->email?>" target="_blank"><i
-                                class="fas fa-envelope"></i><?= $profile->email?></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="top-sosmed justify-content-end mr-5">
-                <ul class="list-inline">
-                    <li class="list-inline-item pl-3 pr-0"><a href="<?= $profile->link_fb?>"
-                            target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li class="list-inline-item pl-3 pr-0"><a href="<?= $profile->link_youtube?>"
-                            target="_blank"><i class="fab fa-youtube"></i></a>
-                    </li>
-                </ul>
+    <!-- Start What Learn
+    ============================================= -->
+    <div class="what-learn-area bg-dark default-padding">
+        <div class="container">
+            <div class="content-box">
+                <div class="row">
+
+                    <div class="col-md-5 info text-light">
+                        <h2>What you will learn in this course</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias quae omnis aperiam cupiditate illum debitis. Assumenda aliquid dolorem quasi aspernatur eveniet non, ipsum. Optio maiores nemo explicabo voluptate assumenda!
+                        </p>
+                    </div>
+
+                    <div class="col-md-7 categories">
+                        <div class="row">
+                            <!-- Single Item -->
+                            <div class="col-md-4 col-sm-4 single-item">
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="flaticon-feature"></i>
+                                        <div class="info">
+                                            <h4>software engineering</h4>
+                                            <span>(1,455) Topics</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="col-md-4 col-sm-4 single-item">
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="flaticon-interaction"></i>
+                                        <div class="info">
+                                            <h4>Interactive Program</h4>
+                                            <span>(2,366) Topics</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="col-md-4 col-sm-4 single-item">
+                                <div class="item">
+                                    <a href="#">
+                                        <i class="flaticon-conveyor"></i>
+                                        <div class="info">
+                                            <h4>Quantum Mechanics</h4>
+                                            <span>(766) Topics</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top w-100">
-            <div class="navbar-toggler-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="top-header">
-                <a href="<?php echo base_url('enhas/index')?>" class="navbar-brand ml-3 mt-2">
-                    <img src="<?php echo base_url()?>assets/landing/img/<?= $profile->logo_sekolah?>" class="ml-15 mr-2" width="49"
-                        height="49">
-                    <div class="nav-text">
-                        <ul class="list-unstyled ">
-                            <li>
-                                <h5 class="font-weight-bold brand"><?= $profile->nama_madrasah?></h5>
-                            </li>
-                        </ul>
-                    </div>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse flex-column" id="navbar">
-                <ul class="navbar-nav w-100 justify-content-end px-3">
-                    <li class="nav-item bg-success rounded text-warning active mr-1">
-                        <a class="nav-link font-weight-bold" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://minurulhuda.sch.id" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Tentang Kami
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#section-profil" class="page-scroll">Profil</a>
-                            <a class="dropdown-item" href="#section-sejarah" class="page-scroll">Sambutan Kamad</a>
-                            <a class="dropdown-item" href="#section-fasilitas" class="page-scroll">Fasilitas</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="false" aria-expanded="false">
-                            Direktori
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/dirguru')?>">Direktori Guru</a>
-                            <a class="dropdown-item" href="#">Direktori Siswa</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://ppdb.yapinda.online/" target="_blank">PPDB</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#section-gallery" class="page-scroll">Galeri</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Informasi
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/informasi')?>">Pengumuman</a>
-                            <a class="dropdown-item" href="<?php echo base_url('enhas/download')?>">File Download</a>
-                        </div>
-                    </li>
+    </div>
+    <!-- End What Learn -->
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            eNHa Apps
-                        </a>
-                        <div class="dropdown-menu w3-animate-zoom" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="http://ard.minurulhuda.sch.id/portal/login/mi"
-                                target="_blank">ARD</a>
-                            <a class="dropdown-item" href="http://cbt.minurulhuda.sch.id/" target="_blank">eNHa-CBT</a>
-                            <a class="dropdown-item" href="http://elearning.minurulhuda.sch.id/"
-                                target="_blank">eNHa-Learning</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <section class="carousel-atas w-100" id="carousel-atas">
-            <div class="carousel-enha ">
-                <section class="use" id="carouse">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="7000">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="carousel-layer"></div>
-                                <img src="<?php echo base_url() . 'assets/landing/img/' . $coverfirst->img_cover?>"
-                                    class="d-block w-100" alt="...">
-                                <div class="carousel-caption satu">
-                                    <h3><?= $coverfirst->txt_title ?></h3>
-                                    <p><?= $coverfirst->txt_desc ?></p>
-                                    <hr class="line-1">
-                                    <!-- <button type="button" href="#section-profil" class="btn font-weight-bold btn-sm">TENTANG
-                                    KAMI</button> -->
-                                   <!-- <a href="#section-profil" class="btn font-weight-bold btn-sm">TENTANG
-                                        KAMI</a> -->
-                                    </div>
-                                </div>
-                                <?php foreach($cover as $item) :?>
-
-                                <div class="carousel-item">
-                                    <div class="carousel-layer"></div>
-                                    <img src="<?php echo base_url() . 'assets/landing/img/'.$item['img_cover'];?>"
-                                        class="d-block w-100" alt="...">
-                                    <div class="carousel-caption dua">
-                                        <h3><?= $item['txt_title'] ?></h3>
-                                        <p><?= $item['txt_desc'] ?></p>
-                                        <!-- <p>Ayo Buruan daftar..!!</p> -->
-                                        <hr class="line-1">
-                                        <!-- <a href="http://ppdb.yapinda.online" target="blank"
-                                        class="btn font-weight-bold btn-lg">DAFTAR</a> -->
-                                    </div>
-                                </div>
-
-                                <?php endforeach ;?>
-                            </div>
-                            <div class="car-prev">
-                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </div>
-                            <div class="car-next">
-                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                </section>
-            </div>
-            <nav>
-                <div class="informasi">
-                    <div class="row">
-                        <div class="inform col-md-12 col-sm-12">
-                            <p class="font-weight-bold"><?= $runtext->isi_rtext?>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </section>
-        <section class="profil" id="section-profil">
-            <div class="container profil-container p-3">
-                <div class="row ml-1 mt-3">
-                    <div class="judul">
-                        <h3 class="title-section">Profil</h3>
-                        <hr class="hr-section">
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-md-5 ">
-                        <img src="<?php echo base_url()?>assets/landing/img/yapinda.jpg" alt="profil enha">
-                    </div>
-                    <div class="col-md-7 mt-3">
-                        <h3>Profil</h3>
-                        <table class="table mt-3">
-                            <tbody>
-                                <tr>
-                                    <td>Nama Madrasah </td>
-                                    <td>: <?= $profile->nama_madrasah?></td>
-                                </tr>
-                                <tr>
-                                    <td>NPSN </td>
-                                    <td>: <?= $profile->npsn?></td>
-                                </tr>
-                                <tr>
-                                    <td>NSM </td>
-                                    <td>: <?= $profile->nsm?></td>
-                                </tr>
-                                <tr>
-                                    <td>Status Akreditasi </td>
-                                    <td>: <?= $profile->nilai_akreditasi?></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="sejarah" id="section-sejarah">
-            <div class="container mt-3 sejarah-container p-3">
-                <div class="row justify-content-center">
-                    <div class="title mt-4 mb-4">
-                        <h3 class="title-section mb-1">Sambutan Kepala Madrasah</h3>
-                        <hr class="hr-section">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md m-auto text-center">
-                        <img src="<?php echo base_url()?>assets/landing/img/<?= $profile->img_kepsek?>" alt="H. Enan Suryana Alm">
-                    </div>
-                    <div class="col-md m-2">
-                        <p class="content-sejarah mt-1 mr-5">
-                            Bismillahirahmanirahim. <br><br>
-
-                            Segala puji bagi Allah SWT tuhan semesta alam yang mengajarkan kita dengan pena
-                            pengetahuan.
-                            Salawat dan salam semoga selalu tercurah kepada teladan sepanjang zaman, Nabi Muhammad
-                            SAW. <br>
-                            <br>
-
-                            Pendidikan merupakan pilar penting bagi peradaban bangsa. Maju mundurnya suatu bangsa
-                            bisa
-                            ditentukan dengan perkembangan ilmu pengetahuan yang dimiliki oleh sumber daya
-                            manusianya. Dan
-                            puncak dari ilmu pengetahuan itu adalah ahlak mulia yang melekat sebagai karakter utama
-                            pada
-                            diri manusia. <br><br>
-
-                            Akhirnya, hanya kepada Allah SWT kita bertawakal. Semoga kita semua sukses dan diberkahi
-                            dalam
-                            menjalankan semua aktivitas. <br><br>
-
-                            Bandung, <br>
-                            Kepala Madrasah MIS Nurul Huda. <br>
-
-                            Iis Nurhayati, S.Ag, M.M.Pd
+    <!-- Start Popular Courses 
+    ============================================= -->
+    <div class="popular-courses circle carousel-shadow bg-gray default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="site-heading text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Popular Courses</h2>
+                        <p>
+                            Discourse assurance estimable applauded to so. Him everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section class="fasilitas" id="section-fasilitas">
-            <div class="container mt-3 fasilitas-container">
-                <div class="row mt-3 justify-content-center">
-                    <div class="title mt-4 mb-4">
-                        <h3 class="title-section mb-1">Fasilitas</h3>
-                        <hr class="hr-section">
-                    </div>
-                </div>
-                <div class="row isi">
-                    <!-- <div class="col-md m-auto text-center">
-                    <i class="fas fa-dollar-sign fa-5x"></i>
-                    <h5>Gratis SPP&DSP</h5>
-                </div> -->
-                    <div class="col-md m-auto text-center">
-                        <i class="fas fa-wifi fa-5x"></i>
-                        <h5>Wifi</h5>
-                    </div>
-                    <div class="col-md m-auto text-center">
-                        <i class="fas fa-cctv fa-5x"></i>
-                        <h5>CCTV</h5>
-                    </div>
-                    <div class="col-md m-auto text-center">
-                        <i class="fas fa-tv fa-5x"></i>
-                        <h5>Media Pembelajaran</h5>
-                    </div>
-                    <div class="col-md m-auto text-center">
-                        <i class="fas fa-guitar-electric fa-5x"></i>
-                        <h5>Alat Kesenian</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- enha gallery -->
-
-        <section class="gallery " id="section-gallery">
-
-            <div class="container gallery-container mt-3 pt-5">
-                <div class="row justify-content-center">
-                    <div class="title ">
-                        <h3 class="title-section">Gallery</h3>
-                        <hr class="hr-section">
-                    </div>
-                </div>
-                <div class="tz-gallery">
-                    <div class="row">
-                        <div class="row">
-                            <?php foreach ($gallery as $item) :?>
-                            <div class="col-sm-6 col-md-4 rounded ">
-                                <h4 class="title-gallery align-middle text-center mb-3">
-                                    <?= $item['nama_kegiatan']?></h4>
-                                <hr class="hr-section">
-                                <a class="lightbox"
-                                    href="<?php echo base_url() . 'assets/landing/img/gallery/'.$item['foto_kegiatan'];?>">
-                                    <img src="<?php echo base_url() . 'assets/landing/img/gallery/'.$item['foto_kegiatan'];?>"
-                                        alt="enha-img-1">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="popular-courses-items bottom-price popular-courses-carousel owl-carousel owl-theme">
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#">
+                                    <img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb">
                                 </a>
+                                <div class="overlay">
+                                    <a class="btn btn-theme effect btn-sm" href="#">
+                                        <i class="fas fa-chart-bar"></i> Enroll Now
+                                    </a>
+                                </div>
                             </div>
-                            <?php endforeach;?>
+                            <div class="info">
+                                <div class="author-info">
+                                    <div class="thumb">
+                                        <a href="#"><img src="<?= base_url() ?>assets/landing/img/100x100.png" alt="Thumb"></a>
+                                    </div>
+                                    <div class="others">
+                                        <a href="#">Munil Druva</a>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span>4.5 (23,890)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4><a href="#">Java Programming Masterclass</a></h4>
+                                <div class="cats">
+                                    <a href="#">Education</a>
+                                    <a href="#">Science</a>
+                                </div>
+                                <p>
+                                    Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment.
+                                </p>
+                                <div class="bottom-info">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-user"></i> 6,690
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-clock"></i> 16:00
+                                        </li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        Free
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-        </section>
-        <section class="footer" id="section-footer">
-            <div class="footer-container">
-                <div class="row">
-                    <div class="col-md">
-                        <div class="logo-footer justify-content-center text-center">
-                            <img class="mb-2" src="<?php echo base_url()?>assets/landing/img/<?= $profile->logo_sekolah?>"
-                                alt="footer mas nurul huda">
-                            <h3><?= $profile->nama_madrasah?></h3>
-                            <h5 class="mb-1">"<?= $profile->visi_motto?>"</h5>
-                            <h7><?= $profile->alamat_madrasah?>
-                            </h7>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#">
+                                    <img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb">
+                                </a>
+                                <div class="overlay">
+                                    <a class="btn btn-theme effect btn-sm" href="#">
+                                        <i class="fas fa-chart-bar"></i> Enroll Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="author-info">
+                                    <div class="thumb">
+                                        <a href="#"><img src="<?= base_url() ?>assets/landing/img/100x100.png" alt="Thumb"></a>
+                                    </div>
+                                    <div class="others">
+                                        <a href="#">Akua Paul</a>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>5 (1,890)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4><a href="#">Social Science & Humanities</a></h4>
+                                <div class="cats">
+                                    <a href="#">Social</a>
+                                    <a href="#">Online</a>
+                                </div>
+                                <p>
+                                    Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment.
+                                </p>
+                                <div class="bottom-info">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-user"></i> 6,690
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-clock"></i> 16:00
+                                        </li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        $12.00
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#">
+                                    <img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb">
+                                </a>
+                                <div class="overlay">
+                                    <a class="btn btn-theme effect btn-sm" href="#">
+                                        <i class="fas fa-chart-bar"></i> Enroll Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="author-info">
+                                    <div class="thumb">
+                                        <a href="#"><img src="<?= base_url() ?>assets/landing/img/100x100.png" alt="Thumb"></a>
+                                    </div>
+                                    <div class="others">
+                                        <a href="#">Jon Babu</a>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span>4.7 (890)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4><a href="#">Actualized Leadership Network</a></h4>
+                                <div class="cats">
+                                    <a href="#">Online</a>
+                                    <a href="#">Source</a>
+                                </div>
+                                <p>
+                                    Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment.
+                                </p>
+                                <div class="bottom-info">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-user"></i> 8,690
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-clock"></i> 126:00
+                                        </li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        Free
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#">
+                                    <img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb">
+                                </a>
+                                <div class="overlay">
+                                    <a class="btn btn-theme effect btn-sm" href="#">
+                                        <i class="fas fa-chart-bar"></i> Enroll Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="author-info">
+                                    <div class="thumb">
+                                        <a href="#"><img src="<?= base_url() ?>assets/landing/img/100x100.png" alt="Thumb"></a>
+                                    </div>
+                                    <div class="others">
+                                        <a href="#">Babu Paol</a>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>5 (980)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4><a href="#">Machine Learning Management</a></h4>
+                                <div class="cats">
+                                    <a href="#">PHP</a>
+                                    <a href="#">Programming</a>
+                                </div>
+                                <p>
+                                    Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment.
+                                </p>
+                                <div class="bottom-info">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-user"></i> 8,690
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-clock"></i> 256:00
+                                        </li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        $124.00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#">
+                                    <img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb">
+                                </a>
+                                <div class="overlay">
+                                    <a class="btn btn-theme effect btn-sm" href="#">
+                                        <i class="fas fa-chart-bar"></i> Enroll Now
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="author-info">
+                                    <div class="thumb">
+                                        <a href="#"><img src="<?= base_url() ?>assets/landing/img/100x100.png" alt="Thumb"></a>
+                                    </div>
+                                    <div class="others">
+                                        <a href="#">Mickel Clark</a>
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                            <span>4.5 (23,890)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4><a href="#">Online Programming</a></h4>
+                                <div class="cats">
+                                    <a href="#">Education</a>
+                                    <a href="#">Science</a>
+                                </div>
+                                <p>
+                                    Would day nor ask walls known. But preserved advantage are but and certainty earnestly enjoyment.
+                                </p>
+                                <div class="bottom-info">
+                                    <ul>
+                                        <li>
+                                            <i class="fas fa-user"></i> 6,690
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-clock"></i> 16:00
+                                        </li>
+                                    </ul>
+                                    <div class="price-btn">
+                                        $12.00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
                     </div>
-                    <div class="col-md">
-                        <h4>Line Kontak</h4>
-                        <hr>
-                        <ul>
-                            <li><a href="tel:+622<?= $profile->phone?>" target="_blank"><i
-                                        class="fas fa-phone fa-lg"></i>022-<?= $profile->phone?></a>
-                            </li>
-                            <li><a href="mailto:<?= $profile->email?>" target="_blank"><i
-                                        class="fas fa-envelope fa-lg"></i><?= $profile->email?></a>
-                            </li>
-                        </ul>
-                        <h4>Sosial Media</h4>
-                        <hr>
-                        <ul>
-                            <li><a href="<?= $profile->link_fb?>" target="_blank"><i
-                                        class="fab fa-facebook fa-lg"></i> @minurulhudakotabandung</a></li>
-
-                            <li><a href="<?= $profile->link_youtube?>" target="_blank"><i
-                                        class="fab fa-youtube fa-lg"></i> @mi nurulhuda</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md">
-                        <h4>Temukan Kami di Maps </h4>
-                        <hr>
-                        <div id="map"></div>
-                    </div>
-                </div>
-                <div class="copyright justify-content-center text-center mt-3"><a href="http://www.minurulhuda.sch.id"
-                        target="blank">
-                        &copyMIS NURUL HUDA Kota Bandung 2020 | Allright reserved</a> |
-                    <strong> Developed by </strong><a
-                        href="https://play.google.com/store/search?q=pub%3Azlz%20tech&c=apps&hl=in"
-                        target="blank">zlz</a>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- End Popular Courses -->
 
-        </section>
-        <script src="<?php echo base_url()?>assets/landing/js/jquery-3.4.1.slim.min.js"></script>
-        <script src="<?php echo base_url()?>assets/landing/js/popper.min.js"></script>
-        <script src="<?php echo base_url()?>assets/landing/js/bootstrap.min.js"></script>
-        <script src="<?php echo base_url()?>assets/landing/js/smooth-scroll.min.js"></script>
-        <script src="<?php echo base_url()?>assets/landing/js/baguetteBox.min.js"></script>
-  
-        <script type="text/javascript">
-        $(function() {
-            var scroll = new SmoothScroll('a[href*="#section-"]', {
-                // speed: 1000
-                easing: 'easeInOutCubic',
-                customEasing: function(time) {
-                    return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+    <!-- Start Fun Factor 
+    ============================================= -->
+    <div class="fun-factor-area default-padding bottom-less text-center bg-fixed shadow dark-hard" style="background-image: url(<?= base_url() ?>assets/landing/img/2440x1578.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 item">
+                    <div class="fun-fact">
+                        <div class="icon">
+                            <i class="flaticon-contract"></i>
+                        </div>
+                        <div class="info">
+                            <span class="timer" data-to="212" data-speed="5000"></span>
+                            <span class="medium">National Awards</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 item">
+                    <div class="fun-fact">
+                        <div class="icon">
+                            <i class="flaticon-professor"></i>
+                        </div>
+                        <div class="info">
+                            <span class="timer" data-to="128" data-speed="5000"></span>
+                            <span class="medium">Best Teachers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 item">
+                    <div class="fun-fact">
+                        <div class="icon">
+                            <i class="flaticon-online"></i>
+                        </div>
+                        <div class="info">
+                            <span class="timer" data-to="8970" data-speed="5000"></span>
+                            <span class="medium">Students Enrolled</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 item">
+                    <div class="fun-fact">
+                        <div class="icon">
+                            <i class="flaticon-reading"></i>
+                        </div>
+                        <div class="info">
+                            <span class="timer" data-to="640" data-speed="5000"></span>
+                            <span class="medium">Cources</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Fun Factor -->
 
-                }
-            });
-        });
+    <!-- Start Advisor Area
+    ============================================= -->
+    <section id="advisor" class="advisor-area default-padding bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="site-heading text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Experience Advisors</h2>
+                        <p>
+                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="advisor-items text-center text-light">
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 single-item">
+                        <div class="advisor-item">
+                            <div class="info-box">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <div class="info-title">
+                                    <h4>Professon. Nuri Paul</h4>
+                                    <span>Chemistry specialist</span>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="pinterest">
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 single-item">
+                        <div class="advisor-item">
+                            <div class="info-box">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <div class="info-title">
+                                    <h4>Monayem Pruda</h4>
+                                    <span>Senior Developer</span>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="pinterest">
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 single-item">
+                        <div class="advisor-item">
+                            <div class="info-box">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <div class="info-title">
+                                    <h4>Dr. Bubly Minu</h4>
+                                    <span>Science specialist</span>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="pinterest">
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 single-item">
+                        <div class="advisor-item">
+                            <div class="info-box">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <div class="info-title">
+                                    <h4>Professon. John Doe</h4>
+                                    <span>Senior Writter</span>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="pinterest">
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 single-item">
+                        <div class="advisor-item">
+                            <div class="info-box">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <div class="info-title">
+                                    <h4>Professon. John Doe</h4>
+                                    <span>Senior Writter</span>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="pinterest">
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 single-item">
+                        <div class="advisor-item">
+                            <div class="info-box">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <div class="info-title">
+                                    <h4>Professon. John Doe</h4>
+                                    <span>Senior Writter</span>
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="twitter">
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                            <li class="pinterest">
+                                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Advisor Area -->
 
-        var map = L.map('map').setView([-6.937930,107.595264], 17);
-        
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-        
-        L.marker([-6.937930,107.595264]).addTo(map)
-            .bindPopup('<div class="text-center"><b>MI NURUL HUDA</b><br> Jl.KH.Wahid Hasyim Gg.Parasdi Dalam I No.7</div>')
-            .openPopup();
-            
-        </script>
-        <script src="<?php echo base_url()?>assets/landing/js/loader.js"></script>
-        <script src="<?php echo base_url()?>assets/landing/js/enha.js"></script>
-        <!-- <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfz3Euq9lMt4i7V-rho11jkgRCTC5t4vo&callback=initMap">
-        </script> -->
-</body>
-</div>
+    <!-- Start Registration 
+    ============================================= -->
+    <div id="register" class="reg-area default-padding-top bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="reg-items">
+                    <div class="col-md-6 reg-form default-padding-bottom">
+                        <div class="site-heading text-left">
+                            <h2>Get a Free online Registration</h2>
+                            <p>
+                                written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+                            </p>
+                        </div>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="First Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Last Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Email*" type="email">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select>
+                                            <option value="1">Chose Subject</option>
+                                            <option value="2">Computer Engineering</option>
+                                            <option value="4">Accounting Technologies</option>
+                                            <option value="5">Web Development</option>
+                                            <option value="6">Machine Language</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Phone" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit">
+                                        Rigister Now
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 thumb">
+                        <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Registration -->
+
+    <!-- Start Event
+    ============================================= -->
+    <section id="event" class="event-area default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="site-heading text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Upcoming Events</h2>
+                        <p>
+                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="event-items">
+                    <!-- Single Item -->
+                    <div class="item horizontal col-md-12">
+                        <div class="col-md-6 thumb bg-cover" style="background-image: url(<?= base_url() ?>assets/landing/img/1500x700.png);">
+                            <div class="date">
+                                <h4><span>12</span> Dec, 2018</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6 info">
+                            <h4>
+                                <a href="#">Secondary Schools United Nations</a>
+                            </h4>
+                            <div class="meta">
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 15 Oct, 2019</li>
+                                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
+                                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
+                                </ul>
+                            </div>
+                            <p>
+                                Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+                            </p>
+                            <a href="#" class="btn btn-dark effect btn-sm">
+                                <i class="fas fa-chart-bar"></i> Book Now
+                            </a>
+                            <a href="#" class="btn btn-gray btn-sm">
+                                <i class="fas fa-ticket-alt"></i> 23 Available
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="item vertical col-md-6">
+                        <div class="info">
+                            <h4>
+                                <a href="#">Social Science & Humanities</a>
+                            </h4>
+                            <div class="meta">
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 15 Oct, 2019</li>
+                                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
+                                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
+                                </ul>
+                            </div>
+                            <p>
+                                Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+                            </p>
+                            <a href="#" class="btn btn-dark effect btn-sm">
+                                <i class="fas fa-chart-bar"></i> Book Now
+                            </a>
+                            <a href="#" class="btn btn-gray btn-sm">
+                                <i class="fas fa-ticket-alt"></i> 126 Available
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="item vertical col-md-6">
+                        <div class="info">
+                            <h4>
+                                <a href="#">Actualized Leadership Network Seminar</a>
+                            </h4>
+                            <div class="meta">
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 15 Oct, 2019</li>
+                                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
+                                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
+                                </ul>
+                            </div>
+                            <p>
+                                Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+                            </p>
+                            <a href="#" class="btn btn-dark effect btn-sm">
+                                <i class="fas fa-chart-bar"></i> Book Now
+                            </a>
+                            <a href="#" class="btn btn-gray btn-sm">
+                                <i class="fas fa-ticket-alt"></i> 72 Available
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="item horizontal col-md-12">
+                        <div class="col-md-6 thumb bg-cover" style="background-image: url(<?= base_url() ?>assets/landing/img/1500x700.png);">
+                            <div class="date">
+                                <h4><span>24</span> Apr, 2019</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6 info">
+                            <h4>
+                                <a href="#">International Conference on Art Business</a>
+                            </h4>
+                            <div class="meta">
+                                <ul>
+                                    <li><i class="fas fa-calendar-alt"></i> 15 Oct, 2019</li>
+                                    <li><i class="fas fa-clock"></i> 8:00 AM - 5:00 PM</li>
+                                    <li><i class="fas fa-map"></i> California, TX 70240 </li>
+                                </ul>
+                            </div>
+                            <p>
+                                Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
+                            </p>
+                            <a href="#" class="btn btn-dark effect btn-sm">
+                                <i class="fas fa-chart-bar"></i> Book Now
+                            </a>
+                            <a href="#" class="btn btn-gray btn-sm">
+                                <i class="fas fa-ticket-alt"></i> 56 Available
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+
+                    <div class="more-btn col-md-12 text-center">
+                        <a href="#" class="btn btn-dark border btn-md">View All Events</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Event -->
+
+    <!-- Start Testimonials 
+    ============================================= -->
+    <div class="testimonials-area carousel-shadow default-padding bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="site-heading text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Students Review</h2>
+                        <p>
+                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="clients-review-carousel owl-carousel owl-theme">
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="col-md-5 thumb">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                            </div>
+                            <div class="col-md-7 info">
+                                <p>
+                                    Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise..
+                                </p>
+                                <h4>Druna Patia</h4>
+                                <span>Biology Student</span>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="col-md-5 thumb">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                            </div>
+                            <div class="col-md-7 info">
+                                <p>
+                                    Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise..
+                                </p>
+                                <h4>Astron Brun</h4>
+                                <span>Science Student</span>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="col-md-5 thumb">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                            </div>
+                            <div class="col-md-7 info">
+                                <p>
+                                    Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise..
+                                </p>
+                                <h4>Paol Druva</h4>
+                                <span>Development Student</span>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="col-md-5 thumb">
+                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                            </div>
+                            <div class="col-md-7 info">
+                                <p>
+                                    Procuring continued suspicion its ten. Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise..
+                                </p>
+                                <h4>Druna Patia</h4>
+                                <span>Biology Student</span>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Blog 
+    ============================================= -->
+    <div id="blog" class="blog-area default-padding bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="site-heading text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Latest News</h2>
+                        <p>
+                            Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="blog-items">
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#"><img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb"></a>
+                                <div class="date">
+                                    <h4><span>24</span> Nov, 2018</h4>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Objection happiness something</a>
+                                </h4>
+                                <p>
+                                    Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
+                                </p>
+                                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+                                <div class="meta">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fas fa-user"></i> Author</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#"><img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb"></a>
+                                <div class="date">
+                                    <h4><span>12</span> Sep, 2018</h4>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Meant to learn of vexed</a>
+                                </h4>
+                                <p>
+                                    Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
+                                </p>
+                                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+                                <div class="meta">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fas fa-user"></i> Author</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="#"><img src="<?= base_url() ?>assets/landing/img/800x600.png" alt="Thumb"></a>
+                                <div class="date">
+                                    <h4><span>29</span> Dec, 2018</h4>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h4>
+                                    <a href="#">Delightful up dissimilar</a>
+                                </h4>
+                                <p>
+                                    Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the partiality unaffected
+                                </p>
+                                <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+                                <div class="meta">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fas fa-user"></i> Author</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fas fa-comments"></i> 23 Comments</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Item -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Blog -->
