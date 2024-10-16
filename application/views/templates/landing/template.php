@@ -9,10 +9,10 @@
     <meta name="description" content="ENHA">
 
     <!-- ========== Page Title ========== -->
-    <title>MI Nurul Huda</title>
+    <title><?= $profile->nama_madrasah ?></title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="<?= base_url(); ?>assets/landing/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url(); ?>assets/landing/img/favicon.ico" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="<?= base_url(); ?>assets/landing/css/bootstrap.min.css" rel="stylesheet" />

@@ -2,23 +2,23 @@
         <div class="item">
             <div class="box-table">
                 <div class="box-cell">
-                    <div class="container" style="margin-bottom: 60px;" >
+                    <div class="container" style="margin-bottom: 60px;">
                         <div class="row item-flex center">
                             <div class="col-md-6">
                                 <div class="content-box">
-                                    <h1>Learn from best online training course</h1>
+                                    <h1><?= $cover[0]['txt_title'] ?></h1>
                                     <p>
-                                        Supposing breakfast day fulfilled off depending questions. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh. Of acceptance insipidity remarkably is invitation.
+                                        <?= $cover[0]['txt_desc'] ?>
                                     </p>
                                     <form action="#">
-                                        <input type="text" placeholder="What do you want to learn?" class="form-control" name="text">
+                                        <input type="text" placeholder="" class="form-control" name="text">
                                         <button type="submit"><i class="fas fa-search"></i></button>
                                     </form>
                                 </div>
                             </div>
                             <div class="col-md-6 thumb">
-                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
-                                <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
+                                <img src="<?php echo base_url() . 'assets/landing/img/' . $cover[0]['img_cover']; ?>" alt="Thumb">
+                                <img src="<?php echo base_url() . 'assets/landing/img/' . $cover[1]['img_cover']; ?>" alt="Thumb">
                                 <div class="join">
                                     <i class="fas fa-graduation-cap"></i>
                                     <div class="fun-fact">

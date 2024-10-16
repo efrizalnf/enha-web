@@ -1,6 +1,4 @@
 <div>
-
-
     <!-- Preloader Start -->
     <div class="se-pre-con"></div>
     <!-- Preloader Ends -->
@@ -14,22 +12,27 @@
                     <div class="info box">
                         <ul>
                             <li>
-                                Have any question? +123 456 7890
+                                <i class="fas fa-phone"></i> <?= $profile->phone ?>
                             </li>
                             <li>
                                 <i class="fas fa-envelope-open"></i>
-                                Info@gmail.com
+                                <?= $profile->email ?>
                             </li>
-                            <li>
-                                <i class="fas fa-clock"></i>
-                                Sun - Thu <span>8:00 - 16:00</span>
-                            </li>
+                            <!-- <li class="list-inline-item pl-3 pr-0"><a href="https://www.facebook.com/mi.nurulhuda.589"
+                                    target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item pl-3 pr-0"><a href="https://www.youtube.com/watch?v=MngGrau0l3U&t=16s"
+                                    target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
                 <div class="simple-link text-right col-md-3">
-                    <a href="#"><i class="fas fa-edit"></i> Register</a>
-                    <a href="#"><i class="fas fa-user"></i> Login</a>
+                    <a href="https://www.facebook.com/mi.nurulhuda.589"
+                        target="_blank"><i class="fab fa-facebook" style='font-size:24px'></i></a>
+                    <a href="https://www.youtube.com/watch?v=MngGrau0l3U&t=16s"
+                        target="_blank" style='font-size:24px'><i class="fab fa-youtube"></i></a>
+                    <!-- <a href="#"><i class="fas fa-edit"></i> Register</a>
+                    <a href="#"><i class="fas fa-user"></i> Login</a> -->
                 </div>
             </div>
         </div>
@@ -50,125 +53,57 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="<?php echo base_url() ?>">
-                        <img src="<?php echo base_url() ?>assets/landing/img/logo-enha2.png" class="logo" alt="Logo" width="60" height="60">
-                    </a>
+
+                    <div class="top-header">
+                        <a href="<?php echo base_url('enhas/index') ?>" class="navbar-brand ml-3 mt-2">
+                            <img src="<?php echo base_url() ?>assets/landing/img/logo-enha2.png" class="ml-15 mr-2" width="49"
+                                height="49">
+                            <div class="nav-text">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <h5 class="font-weight-bold brand"><?= $profile->nama_madrasah ?></h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Home</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Home Version One</a></li>
-                                <li><a href="index-2.html">Home Version Two</a></li>
-                                <li><a href="index-3.html">Home Version Three</a></li>
-                                <li><a href="index-4.html">Home Version Four</a></li>
-                                <li><a href="index-5.html">Home Version Five</a></li>
-                                <li><a href="index-6.html">Home Version Six</a></li>
-                                <li><a href="index-7.html">Home Version Serven <span class="badge">New</span></a></li>
-                                <li><a href="index-onepage.html">Onepage Version One</a></li>
-                                <li><a href="index-2-onepage.html">Onepage Version Two</a></li>
-                                <li><a href="index-3-onepage.html">Onepage Version Three</a></li>
-                                <li><a href="index-4-onepage.html">Onepage Version Four</a></li>
-                                <li><a href="index-5-onepage.html">Onepage Version Five</a></li>
-                                <li><a href="index-6-onepage.html">Onepage Version Six</a></li>
-                            </ul>
+                        <li class="dropdownd">
+                            <a href="<?php echo base_url('enhas/index') ?>" class="dropdown-toggle active" data-toggle="dropdown">Home <span
+                                    class="sr-only">(current)</span></a>
                         </li>
-                        <li class="dropdown megamenu-fw">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-                            <ul class="dropdown-menu megamenu-content" role="menu">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Gallery</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="gallery-2-colum.html">Gallery Two Colum</a></li>
-                                                    <li><a href="gallery-3-colum.html">Gallery Three Colum</a></li>
-                                                    <li><a href="gallery-4-colum.html">Gallery Four Colum</a></li>
-                                                    <li><a href="gallery-6-colum.html">Gallery Six Colum</a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Advisor</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="advisor-carousel.html">Advisor Carousel</a></li>
-                                                    <li><a href="advisor-2-colum.html">Advisor Two Colum</a></li>
-                                                    <li><a href="advisor-3-colum.html">Advisor Three Colum</a></li>
-                                                    <li><a href="advisor-carousel-2.html">Advisor Carousel Two</a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">User Pages</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="profile.html">Profile</a></li>
-                                                    <li><a href="edit-profile.html">Edit Profile</a></li>
-                                                    <li><a href="login.html">login</a></li>
-                                                    <li><a href="register.html">register</a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Other Pages</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="about-us.html">About Us</a></li>
-                                                    <li><a href="faq.html">Faq</a></li>
-                                                    <li><a href="pricing-table.html">Pricing Table</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
-                                                    <li><a href="404.html">Error Page</a></li>
-                                                </ul>
-                                            </div>
-                                        </div><!-- end col-3 -->
-                                    </div><!-- end row -->
-                                </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Tentang Kami</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="<?php echo base_url('enhas/index#section-profil') ?>" class="page-scroll">Profil</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url('enhas/index#section-sejarah') ?>" class="page-scroll">Sambutan Kamad</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url('enhas/index#section-fasilitas') ?>" class="page-scroll">Fasilitas</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Courses</a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Direktori</a>
                             <ul class="dropdown-menu">
-                                <li><a href="courses.html">Courses Carousel One</a></li>
-                                <li><a href="courses-2.html">Courses Grid One</a></li>
-                                <li><a href="courses-3.html">Courses Grid Two</a></li>
-                                <li><a href="courses-4.html">Courses Carousel Two</a></li>
-                                <li><a href="course-details.html">Course Details</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url('enhas/dirguru') ?>">Direktori Guru</a></li>
+                                <li><a class="dropdown-item" href="#">Direktori Siswa</a></li>
                             </ul>
+                        </li>
+                        <li class="dropdownd">
+                            <a class="nav-link" href="http://ppdb.yapinda.online/" target="_blank">PPDB</a>
+                        </li>
+                        <li class="dropdownd">
+                            <a class="nav-link" href="<?php echo base_url('enhas/index#section-gallery') ?>" class="page-scroll">Galeri</a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Teachers</a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Informasi</a>
                             <ul class="dropdown-menu">
-                                <li><a href="teachers.html">Advisor</a></li>
-                                <li><a href="teachers-details.html">Advisor Details</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url('enhas/informasi') ?>">Pengumuman</a></li>
+                                <li><a class="dropdown-item" href="<?php echo base_url('enhas/download') ?>">File Download</a></li>
                             </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Event</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="event.html">Event Mixed Colum</a></li>
-                                <li><a href="event-2.html">Event Grid Colum</a></li>
-                                <li><a href="event-3.html">Event Carousel</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-standard.html">Blog Standard</a></li>
-                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                <li><a href="blog-single-standard.html">Single Standard</a></li>
-                                <li><a href="blog-single-left-sidebar.html">Single Left Sidebar</a></li>
-                                <li><a href="blog-single-right-sidebar.html">Single Right Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contact.html">contact</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->

@@ -7189,3 +7189,67 @@ footer .footer-bottom.bg-light p {
   background: url(assets/img/preloader.gif) center no-repeat #fff;
   text-align: center;
 }
+
+
+/* Add ons */
+
+.top-header a {
+	text-decoration: none;
+	color: #08b430;
+	text-shadow: -1px 0 rgb(34, 37, 34),
+		0 1px rgb(34, 37, 34),
+		1px 0 rgb(34, 37, 34),
+		0 -1px rgb(34, 37, 34);
+	display: flex;
+	margin: auto;
+	/* margin-bottom: 15px; */
+	padding: 0;
+}
+
+.navbar {
+
+  align-content: center;
+  font-style: initial;
+  margin: auto;
+  /* height: 65px !important; */
+  background-color: #FFF !important;
+  opacity: 90%;
+  border-bottom: solid 1px #5efc82;
+
+
+}
+
+.navbar-toggler-right {
+  background-color: #057e2d;
+  border-radius: 10px;
+}
+
+.dropdown .dropdown-menu {
+  border-radius: 0;
+}
+
+
+.nav-header {
+  /* height: 45px; */
+  border-top: solid 1px #4D555E;
+  padding-top: 15px;
+  background-color: #057e2d;
+}
+
+.nav-text {
+  margin: auto;
+  text-align: center;
+}
+
+.nav-text ul li h5 {
+  font-size: 24px;
+  font-style: initial;
+  font-family: 'Righteous',
+    cursive;
+}
+
+.list-unstyled {
+  color: #0fca3b;
+  margin: auto;
+  line-height: 2px;
+}
