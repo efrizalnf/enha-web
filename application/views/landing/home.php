@@ -1,4 +1,4 @@
-    <div class="banner-area standard text-default bg-gray-hard" style="padding-top: 90px;">
+    <div class="banner-area standard text-default bg-gray-hard" style="padding-top: 190px;">
         <div class="item">
             <div class="box-table">
                 <div class="box-cell">
@@ -23,7 +23,7 @@
                                     <i class="fas fa-graduation-cap"></i>
                                     <div class="fun-fact">
                                         <h4 class="timer" data-to="1200" data-speed="5000"></h4>
-                                        <span class="medium">Online Courses</span>
+                                        <span class="medium">Total Lulusan</span>
                                     </div>
                                 </div>
                             </div>

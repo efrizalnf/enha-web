@@ -55,10 +55,9 @@
                     </button>
 
                     <div class="top-header">
-                        <a href="<?php echo base_url('enhas/index') ?>" class="navbar-brand ml-3 mt-2">
-                            <img src="<?php echo base_url() ?>assets/landing/img/logo-enha2.png" class="ml-15 mr-2" width="49"
-                                height="49">
-                            <div class="nav-text">
+                        <a href="<?php echo base_url('enhas/index') ?>" class="navbar-brand">
+                            <img src="<?php echo base_url() ?>assets/landing/img/logo-enha2.png" class="ml-15 mr-2" width="49" height="49" style="margin-right: 15px; ">
+                            <div class="nav-text" style="margin-top:10px">
                                 <ul class="list-unstyled">
                                     <li>
                                         <h5 class="font-weight-bold brand"><?= $profile->nama_madrasah ?></h5>
