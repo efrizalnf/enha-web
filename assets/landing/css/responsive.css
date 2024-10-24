@@ -701,11 +701,20 @@
 
 
   /* What you learn */
-  .what-learn-area .row > .info {
-    padding-right: 15px;
-    margin-bottom: 30px;
+  .what-learn-area .categories {
+    flex-direction: column;
+    align-items: center;
   }
 
+  .what-learn-area .categories .categories-items {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .what-learn-area .item {
+    max-width: 250px;
+  }
+  
 
   /* About */
   .about-area .thumb {

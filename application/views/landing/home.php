@@ -40,59 +40,30 @@
     <div class="what-learn-area bg-dark default-padding">
         <div class="container">
             <div class="content-box">
-                <div class="row">
-
-                    <div class="col-md-5 info text-light">
-                        <h2>What you will learn in this course</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias quae omnis aperiam cupiditate illum debitis. Assumenda aliquid dolorem quasi aspernatur eveniet non, ipsum. Optio maiores nemo explicabo voluptate assumenda!
-                        </p>
-                    </div>
-
-                    <div class="col-md-7 categories">
-                        <div class="row">
-                            <!-- Single Item -->
-                            <div class="col-md-4 col-sm-4 single-item">
-                                <div class="item">
-                                    <a href="#">
-                                        <i class="flaticon-feature"></i>
-                                        <div class="info">
-                                            <h4>software engineering</h4>
-                                            <span>(1,455) Topics</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
-                            <div class="col-md-4 col-sm-4 single-item">
-                                <div class="item">
-                                    <a href="#">
-                                        <i class="flaticon-interaction"></i>
-                                        <div class="info">
-                                            <h4>Interactive Program</h4>
-                                            <span>(2,366) Topics</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
-                            <div class="col-md-4 col-sm-4 single-item">
-                                <div class="item">
-                                    <a href="#">
-                                        <i class="flaticon-conveyor"></i>
-                                        <div class="info">
-                                            <h4>Quantum Mechanics</h4>
-                                            <span>(766) Topics</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
+                <div class="row categories">
+                    <div class="row categories-items">
+                        <div class="col-md-4 col-sm-4 item">
+                            <a href="<?php echo base_url("enhas/dirguru") ?>">
+                                <i class="flaticon-feature"></i>
+                                <!-- <i class="fa-solid fa-chalkboard-user"></i> -->
+                                <h4>Direktori Guru</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 item">
+                            <a href="<?php echo base_url("enhas/dirsiswa") ?>">
+                                <i class="flaticon-interaction"></i>
+                                <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+                                <h4>Direktori Siswa</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 item">
+                            <a href="http://ppdb.yapinda.online">
+                                <i class="flaticon-conveyor"></i>
+                                <!-- <i class="fa-regular fa-address-card"></i> -->
+                                <h4>Penerimaan Peserta Didik Baru</h4>
+                            </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
