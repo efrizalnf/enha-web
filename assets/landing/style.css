@@ -6550,12 +6550,23 @@ form.white-popup-block .link-bottom a:hover {
 /* ============================================================== 
      # Footer 
 =================================================================== */
-footer .f-items .item {
-  padding-right: 30px;
+footer .f-items {
+  display: flex;
 }
 
-footer .f-items .item:last-child {
+footer .f-items .item {
   padding-right: 15px;
+}
+
+footer .f-items .item-one,
+footer .f-items .item-three {
+  width: 20%;
+}
+
+footer .f-items .item-two {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .f-items {
@@ -6563,6 +6574,7 @@ footer .f-items .item:last-child {
 }
 
 footer .f-item p {
+  display: block;
   color: #cccccc;
 }
 
@@ -6585,6 +6597,9 @@ footer .f-item > h5 {
 }
 
 footer .f-item > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   width: auto;
 }
@@ -6895,6 +6910,10 @@ footer .social li a {
   font-weight: 500;
 }
 
+footer .social li:last-child a {
+  margin-right: 0;
+}
+
 footer.bg-light .social li a {
   background: transparent none repeat scroll 0 0;
   border: 1px solid #e7e7e7;
@@ -6937,95 +6956,23 @@ footer.bg-fixed .social {
 }
 
 /* Footer Link */
-footer .f-item > img {
-  margin-bottom: 30px;
+footer .f-item.link ul {
+  margin: 0;
+  padding: 0;
 }
 
 footer .f-item.link li {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 footer .f-item.link li a {
   color: #cccccc;
   display: inline-block;
-  font-weight: 400;
-  padding-left: 15px;
-  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   text-transform: capitalize;
-  font-family: "Open Sans",sans-serif;
 }
-
-footer.bg-fixed .f-item.link li a {
-  color: #ffffff;
-}
-
-footer.bg-light .f-item.link li a {
-  color: #666666;
-}
-
-footer .f-item.link li a::before {
-  background: #cccccc none repeat scroll 0 0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  content: "";
-  height: 4px;
-  left: 0;
-  margin-top: -1px;
-  position: absolute;
-  top: 50%;
-  width: 4px;
-}
-
-footer.bg-fixed .f-item.link li a::before {
-  background: #ffffff none repeat scroll 0 0;
-}
-
-footer.bg-light .f-item.link li a::before {
-  background: #666666 none repeat scroll 0 0;
-}
-
-footer .f-item.link li a:hover {
-  color: #C0EBA6;
-}
-
-
-/* Twitter Widget */
-footer .f-item.twitter-widget .twitter-item {
-  border-bottom: 1px solid #363636;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-}
-
-footer .f-item.twitter-widget .twitter-content p {
-  margin: 0;
-}
-
-footer .f-item.twitter-widget .twitter-content a {
-  color: #ffffff;
-}
-
-footer .f-item.twitter-widget .twitter-content a:hover {
-  color: #C0EBA6;
-}
-
-footer .f-item.twitter-widget .twitter-context {
-  color: #cccccc;
-  margin: 5px 0 0;
-}
-
-footer .f-item.twitter-widget .twitter-context i {
-  color: #C0EBA6;
-  margin-right: 3px;
-}
-
-footer .f-item.twitter-widget .twitter-item:last-child {
-  border: medium none;
-  margin: 0;
-  padding: 0;
-}
-
 
 /* Footer Bottom */
 .footer-bottom .col-md-6:first-child {
@@ -7048,7 +6995,6 @@ footer .f-item.twitter-widget .twitter-item:last-child {
   margin-left: 10px;
   padding-left: 15px;
   position: relative;
-  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -7085,6 +7031,10 @@ footer .f-item.twitter-widget .twitter-item:last-child {
 
 .footer-bottom .link li a:hover {
   color: #C0EBA6;
+}
+
+.footer-bottom .link li a i {
+  margin-right: 10px;
 }
 
 footer .footer-bottom p a {

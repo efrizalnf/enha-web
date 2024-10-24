@@ -399,13 +399,24 @@
 
 
   /* Footer */
-  footer .f-items .item {
-    margin-bottom: 50px;
-    padding-right: 15px;
+  footer .f-items {
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
   }
 
-  footer .f-items .item:last-child {
-    margin-bottom: 0;
+  footer .f-items .item-one {
+    flex: 0 0 60%;
+    order: 1;
+  }
+
+  footer .f-items .item-three {
+    order: 2;
+  }
+
+  footer .f-items .item-two {
+    flex: 0 0 60%;
+    order: 3;
   }
 
   footer .footer-bottom {
@@ -1253,13 +1264,30 @@
   }
 
   /* Footer */
-  footer .f-items .item {
-    margin-bottom: 50px;
-    padding-right: 15px;
+
+  footer .f-items {
+    flex-flow: column;
+    row-gap: 50px;
+    max-width: 460px;
+    margin: 0 auto;
+    text-align: center;
   }
 
-  footer .f-items .item:last-child {
-    margin-bottom: 0;
+  footer .f-items .item-one,
+  footer .f-items .item-three {
+    width: 100%;
+  }
+
+  footer .f-items .item-one {
+    order: 1;
+  }
+  
+  footer .f-items .item-two {
+    order: 3;
+  }
+  
+  footer .f-items .item-three {
+    order: 2;
   }
 
   footer .footer-bottom {
