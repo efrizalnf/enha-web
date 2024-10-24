@@ -2,11 +2,23 @@
     #RESPONSIVE CSS 
 ====================================*/
 
+/* Custom Size */
 @media only screen and (min-width: 992px) and (max-width: 1023px) {
   .top-bar-area .address-info .info {
     text-align: left; /* Kalo ga dikasih text-align teksnya jadi ke center lebih awal. */
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .reg-area .reg-items {
+    padding: 0 40px;
+  }
+
+  .reg-area-two {
+    margin-top: 60px;
+  }
+}
+
 
 /* Tablet Layout: 768px.*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -257,41 +269,9 @@
   }
 
   /* Reg Form */
-  .reg-area .reg-items .reg-form.default-padding-bottom {
-    padding-bottom: 30px;
-    padding-right: 15px;
+  .reg-area .site-heading {
+    padding: 40px;
   }
-
-  .reg-area .reg-form {
-    padding-right: 15px;
-  }
-
-  .reg-area .reg-items .reg-form, 
-  .reg-area .reg-items .thumb {
-    display: block;
-  }
-
-  .reg-area .reg-items .thumb {
-    text-align: center;
-  }
-
-  .reg-area.inc-faq .reg-items .reg-form {
-    display: inherit;
-    float: inherit;
-    margin-bottom: 30px;
-  }
-
-  .join-us-area .info {
-    margin-bottom: 30px;
-    padding-right: 15px;
-  }
-
-  .faq-area.left-sidebar .faq-content {
-    float: none;
-    margin-bottom: 50px;
-    padding-left: 15px;
-  }
-
 
   /* Blog */
   .blog-area.left-sidebar .blog-content {
@@ -675,11 +655,20 @@
 
 
   /* What you learn */
-  .what-learn-area .row > .info {
-    padding-right: 15px;
-    margin-bottom: 30px;
+  .what-learn-area .categories {
+    flex-direction: column;
+    align-items: center;
   }
 
+  .what-learn-area .categories .categories-items {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .what-learn-area .item {
+    max-width: 250px;
+  }
+  
 
   /* About */
   .about-area .thumb {
@@ -1069,41 +1058,8 @@
 
 
   /* Reg Area */
-
-  .reg-area .reg-items .reg-form.default-padding-bottom {
-    padding-bottom: 30px;
-    padding-right: 15px;
-  }
-
-  .reg-area .reg-form {
-    padding-right: 15px;
-  }
-
-  .reg-area .reg-items .reg-form, 
-  .reg-area .reg-items .thumb {
-    display: block;
-  }
-
-  .reg-area .reg-items .thumb {
-    text-align: center;
-  }
-
-  .reg-area.inc-faq .reg-items .reg-form {
-    margin-bottom: 30px;
-  }
-
-  .reg-area.inc-faq .reg-items .reg-form {
-    display: inherit;
-    float: inherit;
-  }
-
-  .reg-area.inc-faq .reg-items .reg-form .reg-box {
-    padding: 30px;
-  }
-
-  .faq-area.left-sidebar .faq-content {
-    float: none;
-    padding-left: 15px;
+  .reg-area .site-heading {
+    padding: 35px;
   }
 
   /* Blog */
@@ -1370,8 +1326,51 @@
 /* Mobile Layout: 600px. */
 @media only screen and (max-width: 600px) {
 
-.course-offer-area .offer-box .info .item {
-  width: 50%;
-}
+  .course-offer-area .offer-box .info .item {
+    width: 50%;
+  }
 
+  /* Reg Area */
+  .reg-area .reg-items {
+    flex-direction: column;
+  }
+
+  .reg-area .reg-items .reg-form.col-md-6,
+  .reg-area .reg-items .thumb.col-md-6 {
+    min-height: auto;
+    position: relative;
+  }
+
+  .reg-area .reg-items .reg-form {
+    max-width: 85%;
+    top: -100px; /* Jangan lupa untuk pake minus juga untuk section di bawahnya biar konsisten. */
+  }
+
+  .reg-area .reg-items .thumb {
+    max-width: 85%;
+  }
+
+  .reg-area .site-heading {
+    padding: 35px;
+  }
+
+  .reg-area-one .reg-items .thumb {
+    align-self: flex-end;
+  }
+
+  .reg-area-two .reg-items .reg-form {
+    align-self: flex-end;
+  }
+
+  .reg-area-two {
+    margin-top: 0;
+  }
+
+  .reg-area-two .reg-items .reg-form {
+    order: 2;
+  }
+
+  .reg-area-two .reg-items .thumb {
+    order: 1;
+  }
 }

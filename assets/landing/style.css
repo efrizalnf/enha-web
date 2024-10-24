@@ -1988,36 +1988,29 @@ body, .banner-area,
     opacity: 0.07;
 }
 
-.what-learn-area .row > .info {
-  padding-right: 35px;
+.what-learn-area .categories {
+  display: flex;
+  justify-content: center;
 }
 
-.what-learn-area .info h2 {
-  font-weight: 600;
-  margin-bottom: 30px;
-  line-height: 1.3;
+.what-learn-area .categories .categories-items {
+  display: flex;
+  justify-content: center;
 }
 
-
-.what-learn-area .info p {
-  margin-bottom: 0;
+.what-learn-area .item {
+  flex: 1;
 }
 
 .what-learn-area .item a {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     padding: 30px;
     text-align: center;
     box-shadow: 0 5px 20px rgba(0,0,0,.1);
     background: #ffffff;
     border-radius: 13px;
-}
-
-.what-learn-area .single-item {
-    margin-top: 30px;
-}
-
-.what-learn-area .categories {
-    margin-top: -30px;
 }
 
 .what-learn-area .categories i {
@@ -2027,29 +2020,20 @@ body, .banner-area,
     margin-bottom: 25px;
 }
 
-.what-learn-area .categories .single-item:nth-child(2) i {
+.what-learn-area .categories .item:nth-child(2) i {
   color: #e948ae;
 }
 
-.what-learn-area .categories .single-item:nth-child(3) i {
+.what-learn-area .categories .item:nth-child(3) i {
   color: #f9bd44 ;
 }
 
 .what-learn-area .categories h4 {
+    margin-bottom: 0;
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
     line-height: 1.4;
-}
-
-.what-learn-area .categories span {
-    text-transform: uppercase;
-    font-size: 10px;
-    background: #f1f1f1;
-    display: inline-block;
-    padding: 3px 15px;
-    border-radius: 20px;
-    font-weight: 600;
 }
 
 
@@ -3884,10 +3868,6 @@ body, .banner-area,
   padding: 30px 20px;
 }
 
-.fun-fact .info {
-  padding-left: 20px;
-}
-
 .fun-fact .info span {
   display: block;
   font-family: "Poppins",sans-serif;
@@ -4883,78 +4863,53 @@ body, .banner-area,
 
 
 /* ============================================================== 
-     # Registration & Faq
+     # Registration
 =================================================================== */
-.faq-area .faq-content .panel-group {
-  margin-bottom: 0;
+.reg-area .reg-items {
+  display: flex;
+  padding: 0 75px;
 }
 
-.reg-area .reg-items .reg-form, 
+.reg-area .reg-items .reg-form,
 .reg-area .reg-items .thumb {
-  display: table-cell;
-  float: none;
-  vertical-align: middle;
+  flex: 1 1 0;
+  padding: 0;
 }
 
 .reg-area .reg-items .reg-form {
-  padding-right: 35px;
+  align-self: flex-start;
+  background-color: #347928;
+  padding: 0;
+  text-align: center;
+}
+
+.reg-area .reg-items .thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.reg-area .site-heading {
+  padding: 55px;
+  margin-bottom: 0;
 }
 
 .reg-area .site-heading h2 {
+  display: block;
   font-size: 24px;
   text-transform: uppercase;
 }
 
-.reg-area .acd-items .panel-body p {
-  margin: 0;
+.reg-area .site-heading p {
+  display: block;
 }
 
-.reg-area .reg-items .panel-group {
+.reg-area .site-heading p:last-child {
   margin-bottom: 0;
 }
 
-.reg-area.inc-faq .reg-items .reg-form {
-  display: inherit;
-  float: left;
-}
-
-.reg-area .site-heading {
-  margin-bottom: 0;
-}
-
-.reg-area .reg-form input, 
-.reg-area .reg-form select {
-  border: 1px solid #e7e7e7;
-  border-radius: inherit;
-  box-shadow: inherit;
-  color: #666666;
-  min-height: 50px;
-}
-
-.reg-area .reg-form select option {
-  padding: 5px 15px;
-}
-
-.reg-area .reg-form button {
-  background: #C0EBA6 none repeat scroll 0 0;
-  border: medium none;
-  box-shadow: inherit;
-  font-family: "Poppins",sans-serif;
-  font-weight: 600;
-  margin-top: 15px;
-  padding: 10px 40px;
-  text-transform: uppercase;
-}
-
-.reg-area .reg-box {
-  background: #347928 none repeat scroll 0 0;
-  padding: 50px;
-}
-
-.reg-box h3 {
-  font-weight: 600;
-  margin-bottom: 30px;
-  text-transform: capitalize;
+.reg-area-two {
+  margin-top: 80px;
 }
 
 

@@ -10,10 +10,6 @@
                                     <p>
                                         <?= $cover[0]['txt_desc'] ?>
                                     </p>
-                                    <form action="#">
-                                        <input type="text" placeholder="" class="form-control" name="text">
-                                        <button type="submit"><i class="fas fa-search"></i></button>
-                                    </form>
                                 </div>
                             </div>
                             <div class="col-md-6 thumb">
@@ -40,64 +36,78 @@
     <div class="what-learn-area bg-dark default-padding">
         <div class="container">
             <div class="content-box">
-                <div class="row">
-
-                    <div class="col-md-5 info text-light">
-                        <h2>What you will learn in this course</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestias quae omnis aperiam cupiditate illum debitis. Assumenda aliquid dolorem quasi aspernatur eveniet non, ipsum. Optio maiores nemo explicabo voluptate assumenda!
-                        </p>
-                    </div>
-
-                    <div class="col-md-7 categories">
-                        <div class="row">
-                            <!-- Single Item -->
-                            <div class="col-md-4 col-sm-4 single-item">
-                                <div class="item">
-                                    <a href="#">
-                                        <i class="flaticon-feature"></i>
-                                        <div class="info">
-                                            <h4>software engineering</h4>
-                                            <span>(1,455) Topics</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
-                            <div class="col-md-4 col-sm-4 single-item">
-                                <div class="item">
-                                    <a href="#">
-                                        <i class="flaticon-interaction"></i>
-                                        <div class="info">
-                                            <h4>Interactive Program</h4>
-                                            <span>(2,366) Topics</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
-                            <div class="col-md-4 col-sm-4 single-item">
-                                <div class="item">
-                                    <a href="#">
-                                        <i class="flaticon-conveyor"></i>
-                                        <div class="info">
-                                            <h4>Quantum Mechanics</h4>
-                                            <span>(766) Topics</span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
+                <div class="row categories">
+                    <div class="row categories-items">
+                        <div class="col-md-4 col-sm-4 item">
+                            <a href="<?php echo base_url("enhas/dirguru") ?>">
+                                <i class="flaticon-feature"></i>
+                                <!-- <i class="fa-solid fa-chalkboard-user"></i> -->
+                                <h4>Direktori Guru</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 item">
+                            <a href="<?php echo base_url("enhas/dirsiswa") ?>">
+                                <i class="flaticon-interaction"></i>
+                                <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+                                <h4>Direktori Siswa</h4>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 item">
+                            <a href="http://ppdb.yapinda.online">
+                                <i class="flaticon-conveyor"></i>
+                                <!-- <i class="fa-regular fa-address-card"></i> -->
+                                <h4>Penerimaan Peserta Didik Baru</h4>
+                            </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
     <!-- End What Learn -->
+
+    <!-- Start Registration 
+    ============================================= -->
+    <div id="register" class="reg-area default-padding-top bg-gray">
+        <div class="container reg-area-one">
+            <div class="row">
+                <div class="reg-items">
+                    <div class="col-md-6 thumb">
+                        <img src="<?php echo base_url()?>assets/landing/img/yapinda.jpg" alt="Halaman depan gedung YAPINDA." width="334" height="251">
+                    </div>
+                    <div class="col-md-6 reg-form">
+                        <div class="site-heading text-light">
+                            <h2>Selamat datang!</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi accusantium nemo, deleniti sapiente accusamus ad molestiae facilis dolorum dolore dicta exercitationem voluptas illo dolorem in? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container reg-area-two">
+            <div class="row">
+                <div class="reg-items">
+                    <div class="col-md-6 reg-form">
+                        <div class="site-heading text-light">
+                            <h2>Sambutan Kepala Madrasah</h2>
+                            <p>Bismillahirahmanirahim.</p>
+                            <p>Segala puji bagi Allah SWT tuhan semesta alam yang mengajarkan kita dengan pena pengetahuan. Salawat dan salam semoga selalu tercurah kepada teladan sepanjang zaman, Nabi Muhammad SAW.</p>
+                            <p>Pendidikan merupakan pilar penting bagi peradaban bangsa. Maju mundurnya suatu bangsa bisa ditentukan dengan perkembangan ilmu pengetahuan yang dimiliki oleh sumber daya manusianya. Dan puncak dari ilmu pengetahuan itu adalah ahlak mulia yang melekat sebagai karakter utama pada diri manusia.</p>
+                            <p>Akhirnya, hanya kepada Allah SWT kita bertawakal. Semoga kita semua sukses dan diberkahi dalam menjalankan semua aktivitas.</p>
+                            <p style="white-space: pre-line;">Bandung,
+                            Kepala Madrasah MIS Nurul Huda.
+                            Iis Nurhayati, S.Ag, M.M.Pd</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 thumb">
+                        <img src="<?php echo base_url()?>assets/landing/img/<?= $profile->img_kepsek?>" alt="Foto dari kepala sekolah MIS Nurul Huda." width="485" height="647">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Registration -->
 
     <!-- Start Popular Courses 
     ============================================= -->
@@ -393,47 +403,46 @@
     <div class="fun-factor-area default-padding bottom-less text-center bg-fixed shadow dark-hard" style="background-image: url(<?= base_url() ?>assets/landing/img/2440x1578.png);">
         <div class="container">
             <div class="row">
+                <div class="site-heading text-light">
+                    <h2>Fasilitas</h2>
+                </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-contract"></i>
+                            <i class="fas fa-wifi fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="212" data-speed="5000"></span>
-                            <span class="medium">National Awards</span>
+                            <span class="medium">WI-FI</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-professor"></i>
+                            <i class="fas fa-cctv fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="128" data-speed="5000"></span>
-                            <span class="medium">Best Teachers</span>
+                            <span class="medium">CCTV</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-online"></i>
+                            <i class="fas fa-tv fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="8970" data-speed="5000"></span>
-                            <span class="medium">Students Enrolled</span>
+                            <span class="medium">MEDIA PEMBELAJARAN</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-reading"></i>
+                            <i class="fas fa-guitar-electric fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="640" data-speed="5000"></span>
-                            <span class="medium">Cources</span>
+                            <span class="medium">ALAT KESENIAN</span>
                         </div>
                     </div>
                 </div>
@@ -619,69 +628,6 @@
         </div>
     </section>
     <!--End Advisor Area -->
-
-    <!-- Start Registration 
-    ============================================= -->
-    <div id="register" class="reg-area default-padding-top bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="reg-items">
-                    <div class="col-md-6 reg-form default-padding-bottom">
-                        <div class="site-heading text-left">
-                            <h2>Get a Free online Registration</h2>
-                            <p>
-                                written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-                            </p>
-                        </div>
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="First Name" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Last Name" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Email*" type="email">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <select>
-                                            <option value="1">Chose Subject</option>
-                                            <option value="2">Computer Engineering</option>
-                                            <option value="4">Accounting Technologies</option>
-                                            <option value="5">Web Development</option>
-                                            <option value="6">Machine Language</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Phone" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <button type="submit">
-                                        Rigister Now
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-6 thumb">
-                        <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Registration -->
 
     <!-- Start Event
     ============================================= -->
