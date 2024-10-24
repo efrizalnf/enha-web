@@ -761,135 +761,8 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
      # Topbar 
 =================================================================== */
 .top-bar-area {
-  padding: 10px 0;
+  padding: 18px 0;
   overflow: hidden;
-}
-
-.top-bar-area {
-  padding: 10px 0;
-}
-
-.top-bar-area .user-login a {
-  background: #f8f7f6 none repeat scroll 0 0;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  color: #1c4700;
-  display: inline-block;
-  font-weight: 600;
-  margin-left: 5px;
-  padding: 8px 25px;
-}
-
-.top-bar-area .user-login a i {
-  margin-right: 2px;
-}
-
-.top-bar-area .address-info li {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
-  display: inline-block;
-  font-family: "Poppins",sans-serif;
-  margin-right: 18px;
-  padding-right: 20px;
-  color: #ffffff;
-  line-height: 24px;
-}
-
-.top-bar-area.bg-theme .address-info li {
-  border-right: 1px solid #347928;
-  color: #0c4700;
-}
-
-.top-bar-area.address-one-lines .address-info li {
-  margin-right: 10px;
-  padding-right: 15px;
-}
-
-.top-bar-area.address-one-lines .address-info li span {
-  display: inline-block;
-  font-weight: normal;
-  padding-left: 5px;
-}
-
-.top-bar-area.address-two-lines .user-login {
-  margin: 3px 0;
-}
-
-.top-bar-area .address-info li span {
-  display: block;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.top-bar-area .address-info li p {
-  line-height: 24px;
-  margin: 0;
-}
-
-.top-bar-area .address-info li:last-child {
-  border: medium none;
-  margin: 0;
-}
-
-.top-bar-area .address-info li i {
-  margin-right: 3px;
-}
-
-.top-bar-area.address-one-lines .address-info {
-  margin: 8px 0;
-}
-
-.top-bar-area .menu li {
-  display: inline-block;
-  margin-left: 10px;
-  padding-left: 15px;
-  position: relative;
-  z-index: 1;
-}
-
-.top-bar-area .menu li a {
-  display: inline-block;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.top-bar-area.bg-dark .menu li a {
-  color: #ffffff;
-}
-
-.top-bar-area .menu li a:hover {
-  color: #C0EBA6;
-}
-
-.top-bar-area.bg-theme .menu li a:hover {
-  color: #ffffff;
-}
-
-.top-bar-area .menu li::before {
-  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
-  content: "";
-  height: 14px;
-  left: 0;
-  position: absolute;
-  top: 6px;
-  width: 1px;
-}
-
-.top-bar-area.bg-theme .menu li::before {
-  background: #347928;
-}
-
-.top-bar-area .menu li:first-child {
-  margin: 0;
-  padding: 0;
-}
-
-.top-bar-area .menu li:first-child::before {
-  display: none;
-}
-
-.top-bar-area .menu {
-  padding: 8px 0;
 }
 
 .top-bar-area .row.align-center {
@@ -898,21 +771,61 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
   justify-content: center;
 }
 
+.top-bar-area.bg-theme .address-info li {
+  border-right: 1px solid #347928;
+  color: #0c4700;
+}
+
+.top-bar-area .address-info li {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  font-family: "Poppins",sans-serif;
+  margin-right: 10px;
+  padding-right: 15px;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.top-bar-area .address-info li:last-child {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar-area .address-info li i {
+  margin-right: 10px;
+}
+
+.top-bar-area .address-info a {
+  display: inline-block;
+}
+
+.top-bar-area .address-info ul {
+  display: flex;
+  align-items: center; /* Vertical centering fix */
+}
+
+.top-bar-area .simple-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Vertical centering fix */
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
 
 .top-bar-area .simple-link a {
-  margin-left: 20px;
+  display: inline-block;
+  color: #232323;
+  margin-left: 23px;
+  max-height: 24px;
+  font-size: 24px;
 }
+
 .top-bar-area .simple-link a:first-child {
   margin-left: 0;
 }
-.top-bar-area .simple-link a i {
-  margin-right: 3px;
-}
-.top-bar-area .simple-link {
-  position: relative;
-  z-index: 1;
-  font-weight: 600;
-}
+
 .top-bar-area .simple-link::after {
   position: absolute;
   top: -30px;
@@ -923,9 +836,6 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
   left: 0;
   z-index: -1;
   transform: skew(25deg);
-}
-.top-bar-area .simple-link a {
-  color: #232323;
 }
 
 /* Site Heading */

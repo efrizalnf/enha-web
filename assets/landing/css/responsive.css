@@ -2,25 +2,17 @@
     #RESPONSIVE CSS 
 ====================================*/
 
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .top-bar-area .address-info .info {
+    text-align: left; /* Kalo ga dikasih text-align teksnya jadi ke center lebih awal. */
+  }
+}
+
 /* Tablet Layout: 768px.*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
 
   /* Topbar */
-  .top-bar-area.address-two-lines .user-login {
-    margin: 10px 0;
-    text-align: center;
-    display: none;
-  }
-
-  .top-bar-area.inc-transparent-nav {
-    display: none;
-  }
-
-  .top-bar-area .user-login {
-    display: none;
-  }
-
   .top-bar-area .simple-link {
     display: none;
   }
@@ -570,10 +562,6 @@
     display: none;
   }
 
-  .top-bar-area.inc-transparent-nav {
-    display: none;
-  }
-
   .top-bar-area .address-info {
     display: none;
   }
@@ -596,20 +584,6 @@
     padding-bottom: 15px;
     padding-right: 0;
     text-align: center;
-  }
-
-  .top-bar-area.address-two-lines .user-login {
-    margin: 10px 0;
-    text-align: center;
-  }
-
-  .top-bar-area .user-login {
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .top-bar-area .user-login a {
-    margin: 0 3px;
   }
 
   /* Accordion */
