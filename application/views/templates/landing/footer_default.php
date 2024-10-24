@@ -5,114 +5,55 @@
  <footer class="bg-dark default-padding-top text-light">
      <div class="container">
          <div class="row">
-             <div class="f-items">
-                 <div class="col-md-4 item">
-                     <div class="f-item">
-                         <img src="assets/img/logo-light.png" alt="Logo">
-                         <p>
-                             Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for you are out. Fertile how old address did showing because sitting replied six. Had arose guest visit going off child she new.
-                         </p>
-                         <div class="social">
-                             <ul>
-                                 <li>
-                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                 </li>
-                                 <li>
-                                     <a href="#"><i class="fab fa-twitter"></i></a>
-                                 </li>
-                                 <li>
-                                     <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                 </li>
-                                 <li>
-                                     <a href="#"><i class="fab fa-dribbble"></i></a>
-                                 </li>
-                             </ul>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-2 col-sm-6 item">
-                     <div class="f-item link">
-                         <h4>Links</h4>
-                         <ul>
-                             <li>
-                                 <a href="#">Courses</a>
-                             </li>
-                             <li>
-                                 <a href="#">Event</a>
-                             </li>
-                             <li>
-                                 <a href="#">Gallery</a>
-                             </li>
-                             <li>
-                                 <a href="#">Faqs</a>
-                             </li>
-                             <li>
-                                 <a href="#">Teachers</a>
-                             </li>
-                             <li>
-                                 <a href="#">Contact</a>
-                             </li>
-                         </ul>
-                     </div>
-                 </div>
-                 <div class="col-md-2 col-sm-6 item">
-                     <div class="f-item link">
-                         <h4>Support</h4>
-                         <ul>
-                             <li>
-                                 <a href="#">Documentation</a>
-                             </li>
-                             <li>
-                                 <a href="#">Forums</a>
-                             </li>
-                             <li>
-                                 <a href="#">Language Packs</a>
-                             </li>
-                             <li>
-                                 <a href="#">Release Status</a>
-                             </li>
-                             <li>
-                                 <a href="#">LearnPress</a>
-                             </li>
-                             <li>
-                                 <a href="#">Feedback</a>
-                             </li>
-                         </ul>
-                     </div>
-                 </div>
-                 <div class="col-md-4 item">
-                     <div class="f-item recent-post">
-                         <h4>Popular Courses</h4>
-                         <ul>
-                             <li>
-                                 <div class="thumb">
-                                     <a href="#">
-                                         <img src="assets/img/800x800.png" alt="Thumb">
-                                     </a>
-                                 </div>
-                                 <div class="info">
-                                     <a href="#">Subjects allied to Creative arts and design</a>
-                                     <div class="meta-title">
-                                         <span class="post-date">12 Feb, 2018</span> - By <a href="#">Jessica</a>
-                                     </div>
-                                 </div>
-                             </li>
-                             <li>
-                                 <div class="thumb">
-                                     <a href="#">
-                                         <img src="assets/img/800x800.png" alt="Thumb">
-                                     </a>
-                                 </div>
-                                 <div class="info">
-                                     <a href="#">Business and administrative subjects</a>
-                                     <div class="meta-title">
-                                         <span class="post-date">12 Feb, 2018</span> - By <a href="#">Arnold</a>
-                                     </div>
-                                 </div>
-                             </li>
-                         </ul>
-                     </div>
-                 </div>
+            <div class="f-items">
+                <div class="col-md-2 item item-one">
+                    <div class="f-item">
+                        <h4>KUNJUNGI KAMI</h4>
+                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=107.59321779012681%2C-6.93877065565314%2C107.59604483842851%2C-6.937103887616462&amp;layer=mapnik&amp;marker=-6.93793727237232%2C107.59463131427765" style="width: 100%; height: 260px;"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-6.937937&amp;mlon=107.594631#map=19/-6.937937/107.594631&amp;layers=N">View Larger Map</a></small>
+                        <p class="block">Jl. Kh. Wahid Hasyim Gg. Parasdi Dalam I No. 7 Kec. Bojongloa Kidul Kel. Situsaeur Bandung 40234</p>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 item item-two">
+                    <div class="col-md-6">
+                        <div class="f-item text-center">
+                            <img src="<?php echo base_url() ?>assets/landing/img/logo-enha2.png" alt="Logo">
+                            <h4 style="margin-bottom: 15px;">MIS NURUL HUDA</h4>
+                            <p>"Terwujudnya insan kamil yang beriman, berilmu pengetahuan, cerdas, terampil, dan mampu mengembangkan"</p>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/mi.nurulhuda.589"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/watch?v=MngGrau0l3U"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 item item-three">
+                    <div class="f-item link">
+                    <h4>INFO</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Tentang Kami</a>
+                        </li>
+                        <li>
+                            <a href="#">Direktori Guru</a>
+                        </li>
+                        <li>
+                            <a href="#">Direktori Siswa</a>
+                        </li>
+                        <li>
+                            <a href="#">Pengumuman</a>
+                        </li>
+                        <li>
+                            <a href="#">PPDB</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
              </div>
          </div>
      </div>
@@ -122,19 +63,16 @@
              <div class="row">
                  <div class="col-md-12">
                      <div class="col-md-6">
-                         <p>&copy; Copyright 2019. All Rights Reserved by <a href="#">validthemes</a></p>
+                         <p>&copy; Copyright 2024 <a href="http://www.minurulhuda.sch.id/">MIS NURUL HUDA Bandung</a>. All Rights Reserved.</p>
                      </div>
                      <div class="col-md-6 text-right link">
                          <ul>
-                             <li>
-                                 <a href="#">Terms of user</a>
-                             </li>
-                             <li>
-                                 <a href="#">License</a>
-                             </li>
-                             <li>
-                                 <a href="#">Support</a>
-                             </li>
+                            <li>
+                                <a href="tel:<?= $profile->phone ?>"><i class="fas fa-phone"></i><?= $profile->phone ?></a>
+                            </li>
+                            <li>
+                                <a href="mailto:<?= $profile->email ?>"><i class="fas fa-envelope-open"></i><?= $profile->email ?></a>
+                            </li>
                          </ul>
                      </div>
                  </div>
