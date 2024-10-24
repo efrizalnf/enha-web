@@ -432,47 +432,46 @@
     <div class="fun-factor-area default-padding bottom-less text-center bg-fixed shadow dark-hard" style="background-image: url(<?= base_url() ?>assets/landing/img/2440x1578.png);">
         <div class="container">
             <div class="row">
+                <div class="site-heading text-light">
+                    <h2>Fasilitas</h2>
+                </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-contract"></i>
+                            <i class="fas fa-wifi fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="212" data-speed="5000"></span>
-                            <span class="medium">National Awards</span>
+                            <span class="medium">WI-FI</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-professor"></i>
+                            <i class="fas fa-cctv fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="128" data-speed="5000"></span>
-                            <span class="medium">Best Teachers</span>
+                            <span class="medium">CCTV</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-online"></i>
+                            <i class="fas fa-tv fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="8970" data-speed="5000"></span>
-                            <span class="medium">Students Enrolled</span>
+                            <span class="medium">MEDIA PEMBELAJARAN</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-reading"></i>
+                            <i class="fas fa-guitar-electric fa-5x"></i>
                         </div>
                         <div class="info">
-                            <span class="timer" data-to="640" data-speed="5000"></span>
-                            <span class="medium">Cources</span>
+                            <span class="medium">ALAT KESENIAN</span>
                         </div>
                     </div>
                 </div>
