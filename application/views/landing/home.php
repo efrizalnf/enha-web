@@ -10,10 +10,6 @@
                                     <p>
                                         <?= $cover[0]['txt_desc'] ?>
                                     </p>
-                                    <form action="#">
-                                        <input type="text" placeholder="" class="form-control" name="text">
-                                        <button type="submit"><i class="fas fa-search"></i></button>
-                                    </form>
                                 </div>
                             </div>
                             <div class="col-md-6 thumb">
@@ -98,6 +94,49 @@
         </div>
     </div>
     <!-- End What Learn -->
+
+    <!-- Start Registration 
+    ============================================= -->
+    <div id="register" class="reg-area default-padding-top bg-gray">
+        <div class="container reg-area-one">
+            <div class="row">
+                <div class="reg-items">
+                    <div class="col-md-6 thumb">
+                        <img src="<?php echo base_url()?>assets/landing/img/yapinda.jpg" alt="Halaman depan gedung YAPINDA." width="334" height="251">
+                    </div>
+                    <div class="col-md-6 reg-form">
+                        <div class="site-heading text-light">
+                            <h2>Selamat datang!</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi accusantium nemo, deleniti sapiente accusamus ad molestiae facilis dolorum dolore dicta exercitationem voluptas illo dolorem in? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container reg-area-two">
+            <div class="row">
+                <div class="reg-items">
+                    <div class="col-md-6 reg-form">
+                        <div class="site-heading text-light">
+                            <h2>Sambutan Kepala Madrasah</h2>
+                            <p>Bismillahirahmanirahim.</p>
+                            <p>Segala puji bagi Allah SWT tuhan semesta alam yang mengajarkan kita dengan pena pengetahuan. Salawat dan salam semoga selalu tercurah kepada teladan sepanjang zaman, Nabi Muhammad SAW.</p>
+                            <p>Pendidikan merupakan pilar penting bagi peradaban bangsa. Maju mundurnya suatu bangsa bisa ditentukan dengan perkembangan ilmu pengetahuan yang dimiliki oleh sumber daya manusianya. Dan puncak dari ilmu pengetahuan itu adalah ahlak mulia yang melekat sebagai karakter utama pada diri manusia.</p>
+                            <p>Akhirnya, hanya kepada Allah SWT kita bertawakal. Semoga kita semua sukses dan diberkahi dalam menjalankan semua aktivitas.</p>
+                            <p style="white-space: pre-line;">Bandung,
+                            Kepala Madrasah MIS Nurul Huda.
+                            Iis Nurhayati, S.Ag, M.M.Pd</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 thumb">
+                        <img src="<?php echo base_url()?>assets/landing/img/<?= $profile->img_kepsek?>" alt="Foto dari kepala sekolah MIS Nurul Huda." width="485" height="647">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Registration -->
 
     <!-- Start Popular Courses 
     ============================================= -->
@@ -619,69 +658,6 @@
         </div>
     </section>
     <!--End Advisor Area -->
-
-    <!-- Start Registration 
-    ============================================= -->
-    <div id="register" class="reg-area default-padding-top bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="reg-items">
-                    <div class="col-md-6 reg-form default-padding-bottom">
-                        <div class="site-heading text-left">
-                            <h2>Get a Free online Registration</h2>
-                            <p>
-                                written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-                            </p>
-                        </div>
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="First Name" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Last Name" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Email*" type="email">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <select>
-                                            <option value="1">Chose Subject</option>
-                                            <option value="2">Computer Engineering</option>
-                                            <option value="4">Accounting Technologies</option>
-                                            <option value="5">Web Development</option>
-                                            <option value="6">Machine Language</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Phone" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <button type="submit">
-                                        Rigister Now
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-6 thumb">
-                        <img src="<?= base_url() ?>assets/landing/img/800x800.png" alt="Thumb">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Registration -->
 
     <!-- Start Event
     ============================================= -->
