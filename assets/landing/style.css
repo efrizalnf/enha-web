@@ -4973,78 +4973,53 @@ body, .banner-area,
 
 
 /* ============================================================== 
-     # Registration & Faq
+     # Registration
 =================================================================== */
-.faq-area .faq-content .panel-group {
-  margin-bottom: 0;
+.reg-area .reg-items {
+  display: flex;
+  padding: 0 75px;
 }
 
-.reg-area .reg-items .reg-form, 
+.reg-area .reg-items .reg-form,
 .reg-area .reg-items .thumb {
-  display: table-cell;
-  float: none;
-  vertical-align: middle;
+  flex: 1 1 0;
+  padding: 0;
 }
 
 .reg-area .reg-items .reg-form {
-  padding-right: 35px;
+  align-self: flex-start;
+  background-color: #347928;
+  padding: 0;
+  text-align: center;
+}
+
+.reg-area .reg-items .thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.reg-area .site-heading {
+  padding: 55px;
+  margin-bottom: 0;
 }
 
 .reg-area .site-heading h2 {
+  display: block;
   font-size: 24px;
   text-transform: uppercase;
 }
 
-.reg-area .acd-items .panel-body p {
-  margin: 0;
+.reg-area .site-heading p {
+  display: block;
 }
 
-.reg-area .reg-items .panel-group {
+.reg-area .site-heading p:last-child {
   margin-bottom: 0;
 }
 
-.reg-area.inc-faq .reg-items .reg-form {
-  display: inherit;
-  float: left;
-}
-
-.reg-area .site-heading {
-  margin-bottom: 0;
-}
-
-.reg-area .reg-form input, 
-.reg-area .reg-form select {
-  border: 1px solid #e7e7e7;
-  border-radius: inherit;
-  box-shadow: inherit;
-  color: #666666;
-  min-height: 50px;
-}
-
-.reg-area .reg-form select option {
-  padding: 5px 15px;
-}
-
-.reg-area .reg-form button {
-  background: #C0EBA6 none repeat scroll 0 0;
-  border: medium none;
-  box-shadow: inherit;
-  font-family: "Poppins",sans-serif;
-  font-weight: 600;
-  margin-top: 15px;
-  padding: 10px 40px;
-  text-transform: uppercase;
-}
-
-.reg-area .reg-box {
-  background: #347928 none repeat scroll 0 0;
-  padding: 50px;
-}
-
-.reg-box h3 {
-  font-weight: 600;
-  margin-bottom: 30px;
-  text-transform: capitalize;
+.reg-area-two {
+  margin-top: 80px;
 }
 
 
