@@ -3,6 +3,12 @@
 ====================================*/
 
 /* Custom Size */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .top-bar-area .address-info .info {
+    text-align: left; /* Kalo ga dikasih text-align teksnya jadi ke center lebih awal. */
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .reg-area .reg-items {
     padding: 0 40px;
@@ -19,20 +25,6 @@
 
 
   /* Topbar */
-  .top-bar-area.address-two-lines .user-login {
-    margin: 10px 0;
-    text-align: center;
-    display: none;
-  }
-
-  .top-bar-area.inc-transparent-nav {
-    display: none;
-  }
-
-  .top-bar-area .user-login {
-    display: none;
-  }
-
   .top-bar-area .simple-link {
     display: none;
   }
@@ -550,10 +542,6 @@
     display: none;
   }
 
-  .top-bar-area.inc-transparent-nav {
-    display: none;
-  }
-
   .top-bar-area .address-info {
     display: none;
   }
@@ -576,20 +564,6 @@
     padding-bottom: 15px;
     padding-right: 0;
     text-align: center;
-  }
-
-  .top-bar-area.address-two-lines .user-login {
-    margin: 10px 0;
-    text-align: center;
-  }
-
-  .top-bar-area .user-login {
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .top-bar-area .user-login a {
-    margin: 0 3px;
   }
 
   /* Accordion */

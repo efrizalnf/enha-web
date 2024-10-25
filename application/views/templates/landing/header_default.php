@@ -11,28 +11,14 @@
                 <div class="col-md-9 address-info">
                     <div class="info box">
                         <ul>
-                            <li>
-                                <i class="fas fa-phone"></i> <?= $profile->phone ?>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope-open"></i>
-                                <?= $profile->email ?>
-                            </li>
-                            <!-- <li class="list-inline-item pl-3 pr-0"><a href="https://www.facebook.com/mi.nurulhuda.589"
-                                    target="_blank"><i class="fab fa-facebook"></i></a></li>
-                            <li class="list-inline-item pl-3 pr-0"><a href="https://www.youtube.com/watch?v=MngGrau0l3U&t=16s"
-                                    target="_blank"><i class="fab fa-youtube"></i></a>
-                            </li> -->
+                            <li><a href="tel:<?= $profile->phone ?>"><i class="fas fa-phone"></i><?= $profile->phone ?></a></li>
+                            <li><a href="mailto:<?= $profile->email ?>"><i class="fas fa-envelope-open"></i><?= $profile->email ?></li></a>
                         </ul>
                     </div>
                 </div>
-                <div class="simple-link text-right col-md-3">
-                    <a href="https://www.facebook.com/mi.nurulhuda.589"
-                        target="_blank"><i class="fab fa-facebook" style='font-size:24px'></i></a>
-                    <a href="https://www.youtube.com/watch?v=MngGrau0l3U&t=16s"
-                        target="_blank" style='font-size:24px'><i class="fab fa-youtube"></i></a>
-                    <!-- <a href="#"><i class="fas fa-edit"></i> Register</a>
-                    <a href="#"><i class="fas fa-user"></i> Login</a> -->
+                <div class="col-md-3 simple-link text-right ">
+                    <a href="https://www.facebook.com/mi.nurulhuda.589" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/watch?v=MngGrau0l3U" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
