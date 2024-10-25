@@ -1408,14 +1408,14 @@ body, .banner-area,
 }
 
 .banner-area.standard .thumb::after {
-    position: absolute;
+  position: absolute;
     left: 50%;
     top: 50%;
     margin-top: -150px;
+    content: "";
     height: 450px;
     width: 450px;
-    /* border: 80px solid #ffffff; */
-    background-image: url('/assets/landing/img/logo-enha2.png') !important;
+    border: 80px solid #ffffff;
     border-radius: 50%;
     z-index: -1;
     opacity: 0.3;
@@ -1427,7 +1427,6 @@ body, .banner-area,
     animation-name: infiUpDown;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    background-size: cover; /* Tambahkan untuk memastikan gambar latar belakang menutupi seluruh elemen */
 }
 
 .banner-area.standard form {
